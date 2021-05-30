@@ -1,0 +1,4313 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Merriweather', Verdana;
+}
+
+h1 {
+    font-family: 'Righteous';
+}
+
+h2 {
+    font-family: 'Righteous';
+}
+
+h3 {
+    font-family: 'Bree+Serif';
+}
+
+a {
+    text-decoration: none;
+}
+
+@media screen and (min-width:1366px) {
+
+    #mainHeader {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        background: url(../image/header-bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #contentHeader {
+        width: 100%;
+        height: 400px;
+        position: relative;
+    }
+
+    #headerContanier {
+        width: 1346px;
+        height: 100vh;
+        margin: auto;
+    }
+
+    #contentHeaderContanier {
+        width: 1346px;
+        height: 400px;
+        margin: auto;
+    }
+
+    #headerTop {
+        width: 1346px;
+        height: 50px;
+        position: relative;
+    }
+
+    #headerTopLeftUl {
+        display: inline-block;
+    }
+
+    #headerTopLeftUl ul li {
+        list-style-type: none;
+        display: inline-block;
+        line-height: 50px;
+        font-weight: bold;
+        border-right: 1px solid orange;
+        padding: 0 10px;
+    }
+
+    #headerTopLeftUl ul li:first-child {
+        padding-left: 0;
+    }
+
+    #headerTopLeftUl ul li:last-child {
+        border-right: 0;
+        padding-right: 0;
+    }
+
+    #headerTopLeftUl ul li a {
+        list-style-type: none;
+        color: #0097e6;
+    }
+
+    #headerTopLeftUl ul li a:hover {
+        color: white;
+    }
+
+    #headerTopLeftUl ul li a:active {
+        color: yellowgreen;
+    }
+
+    #headerTopRight {
+        float: right;
+    }
+
+    .headerTopRightLogo {
+        width: 30px;
+        height: 30px;
+        float: left;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-left: 20px;
+    }
+
+    .headerTopRightLogo:first-child {
+        margin-left: 0;
+    }
+
+    .headerTopRightText {
+        float: left;
+        line-height: 50px;
+        color: #dcdde1;
+    }
+
+    /** ** ** Nav Bölümü ** ** **/
+
+    #menuIconMobile{
+        display: none;
+    }
+    
+    #navContanierRightUlMobile{
+        display: none;
+    }
+
+    nav {
+        width: 100%;
+        height: 80px;
+        position: absolute;
+        top: 50px;
+        background: rgba(0, 0, 0, 0.5);
+    }
+
+    #navContanier {
+        width: 1346px;
+        height: 80px;
+        margin: auto;
+    }
+
+    #navContanierLogo {
+        font-family: 'Righteous', 'Segoe UI';
+        color: white;
+        font-size: 40px;
+        font-weight: bold;
+        display: inline;
+        position: relative;
+        line-height: 80px;
+    }
+
+    #navContanierRightUl {
+        float: right;
+    }
+
+    #navContanierRightUl ul {
+        list-style-type: none;
+        font-weight: 600;
+    }
+
+    #navContanierRightUl ul li {
+        float: left;
+        margin-left: 20px;
+    }
+
+    #navContanierRightUl ul li:first-child {
+        margin-left: 0
+    }
+
+    #navContanierRightUl ul li a {
+        color: #ffffff;
+        line-height: 80px;
+    }
+
+    #navContanierRightUl ul li a:hover {
+        color: #8c7ae6;
+    }
+
+    #navContanierRightUl ul li a:active {
+        color: #e1b12c;
+    }
+
+    #headerText {
+        position: absolute;
+        top: 310px;
+        color: #ffffff;
+    }
+
+    #headerText:last-child {
+        margin: 0;
+    }
+
+    #headerText h1 {
+        font-size: 50px;
+        text-shadow: 5px 5px 6px black;
+        margin-bottom: 15px;
+        display: inline-block;
+    }
+
+    #headerText h2 {
+        font-size: 30px;
+        text-shadow: 5px 5px 6px black;
+        margin-bottom: 15px;
+        display: inline-block;
+    }
+
+    #headerText h3 {
+        font-size: 21px;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 3px 15px;
+        padding-right: 0;
+        text-shadow: 3px 3px 5px black;
+        font-weight: 400;
+    }
+
+    #headerTextButton {
+        margin-top: 40px;
+    }
+
+    #headerTextButton a {
+        border: 1px solid #ffffff;
+        padding: 20px;
+        color: #ffffff;
+        transition: all .5s ease-in-out;
+        text-shadow: 1px 1px 1px black;
+    }
+
+    #headerTextButton a:first-child {
+        background: red;
+    }
+
+    #headerTextButton a:last-child {
+        margin-left: 20px;
+        background: red;
+    }
+
+    #headerTextButton a:last-child:hover {
+        background: transparent;
+    }
+
+    #headerTextButton a:first-child:hover {
+        background: transparent;
+    }
+
+    #headerTextButton a:active {
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        transition: none;
+        text-shadow: none;
+    }
+
+    /*** Section Başlangıcı ***/
+
+    /*** Birinci Section ***/
+
+    #section_Ilk {
+        width: 100%;
+        height: 100vh;
+        background: url(../image/section1.jpeg);
+        background-size: cover;
+        padding-top: 1px;
+        margin-top: 0;
+    }
+
+    .limitedSection {
+        width: 1346px;
+        height: 650px;
+        position: relative;
+        margin: auto;
+        margin-top: 40px;
+    }
+
+    .limitedSection h1 {
+        text-align: center;
+        font-size: 40px;
+        background: red;
+        display: inline-block;
+        padding: 1px 10px;
+    }
+
+    .limitedSection h2 {
+        text-align: center;
+        font-size: 28px;
+        margin-top: 7px;
+        font-weight: 500;
+        background: red;
+        display: inline-block;
+        padding: 1px 10px;
+    }
+
+    .limitedSection img {
+        width: 663px;
+        border: 1px solid black;
+        padding: 10px;
+        margin-top: 30px;
+        float: left;
+        display: block;
+    }
+
+    #limitedSectionBasliklar {
+        text-align: center;
+    }
+
+    .limitedSection article {
+        width: 640px;
+        float: right;
+        padding-left: 20px;
+    }
+
+    .limitedSection article img {
+        width: 90px;
+        height: 90px;
+        margin-left: 260px;
+        border: none;
+        margin-top: 10px;
+    }
+
+    .limitedSection article p {
+        float: left;
+        margin-bottom: 15px;
+        text-indent: 15px;
+        font-weight: 500;
+        color: black;
+        padding: 7px;
+        background-color: white;
+        font-size: 15.5px;
+    }
+
+    .limitedSection article p:nth-child(4) {
+        margin-bottom: 0px;
+    }
+
+    /*** İkinci Section ***/
+
+    section .unLimitedSection {
+        width: 100%;
+        position: relative;
+        background: black;
+    }
+
+    #unLimitedSectionMenuContanier {
+        width: 1346px;
+        height: 640px;
+        position: relative;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    #unLimitedSectionMenuContanier img {
+        width: 335px;
+        height: 300px;
+        opacity: 0.3;
+        transition: all 0.3s ease-in-out;
+    }
+
+    #unLimitedSectionMenuContanier img:hover {
+        cursor: pointer;
+        opacity: 1;
+        transform: scale(1.05);
+    }
+
+    #unLimitedSectionMenuContanierLink {
+        margin-top: 167px;
+        position: absolute;
+        width: 900px;
+        height: 300px;
+        border: 0.1px solid #ffffff;
+        text-align: center;
+    }
+
+    #unLimitedSectionMenuContanierLink h1 {
+        color: rgb(241, 226, 12);
+        font-size: 40px;
+        line-height: 163px;
+    }
+
+    #unLimitedSectionMenuContanierLink a {
+        border: 3px solid white;
+        padding: 10px;
+        font-size: 25px;
+        font-weight: bold;
+        color: white;
+        line-height: 37px;
+    }
+
+    #unLimitedSectionMenuContanierLink a:hover {
+        background: red;
+        color: #ffffff;
+    }
+
+    /*** Üçüncü Section ***/
+
+    #section_Uc {
+        width: 100%;
+        height: 650px;
+        background: url("../image/section3.jpg");
+        background-size: cover;
+        padding-bottom: 30px;
+    }
+
+    #teamContanier {
+        width: 1200px;
+        height: 650px;
+        margin: auto;
+    }
+
+    #teamContanier h1 {
+        padding-top: 30px;
+        font-size: 50px;
+        text-align: center;
+        color: darkblue;
+    }
+
+    #teamContanier .teamTile {
+        overflow: hidden;
+        float: left;
+        margin-left: 58.5px;
+    }
+
+    #teamContanier img {
+        width: 300px;
+        height: 500px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        border: 1px solid black;
+        padding: 10px;
+    }
+
+    #teamContanier .teamTile .teamHover {
+        position: relative;
+        width: 322px;
+        height: 522px;
+        background: url(../image/hover.jpg);
+        opacity: 0.7;
+        background-size: cover;
+        margin-top: -546px;
+        margin-left: -322px;
+        transition: all 0.8s ease;
+    }
+
+    #teamContanier .teamTile .teamHover .teamHoverText {
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: white;
+        background: #000000;
+        text-shadow: 1px 1px 1px black;
+        width: 322px;
+        position: absolute;
+        margin-top: 215px;
+    }
+
+    #teamContanier .teamTile:hover .teamHover {
+        margin-left: 0;
+    }
+
+    #unLimitedSection2 {
+        width: 100%;
+        height: 100vh;
+        margin: auto;
+        background-image: url(../image/section4.jpg);
+        background-size: cover;
+        position: relative;
+    }
+
+    #unLimitedSection2 #unLimitedSection2Left {
+        margin-top: 72px;
+        margin-left: 100px;
+        position: absolute;
+        width: 600px;
+        height: 500px;
+        background: rgba(11, 17, 0, 0.8);
+        color: white;
+        padding: 30px;
+        text-align: center;
+    }
+
+    #unLimitedSection2 #unLimitedSection2Left h1 {
+        font-size: 50px;
+        line-height: 30px;
+        margin-top: 85px;
+    }
+
+    #unLimitedSection2 #unLimitedSection2Left h2 {
+        font-size: 35px;
+        line-height: 85px;
+    }
+
+    #unLimitedSection2 #unLimitedSection2Left p {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    #unLimitedSection2 #unLimitedSection2Left h3 {
+        font-size: 20px;
+        text-decoration: underline;
+    }
+
+    .contentSection {
+        width: 1246px;
+        height: 100vh;
+        position: relative;
+        margin: 30px auto;
+        margin-top: 0;
+    }
+
+    #contentSectionKapsayici {
+        background: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        height: 100vh;
+    }
+
+    #contentHeader .contentSection h1 {
+        text-align: center;
+        padding-top: 56px;
+        padding-bottom: 45px;
+        font-size: 70px;
+        color: yellow;
+    }
+
+    #contentHeader .contentSection p {
+        line-height: 20px;
+        padding-bottom: 30px;
+        text-indent: 15px;
+        color: #fff;
+    }
+
+    /* *** İletişim Bölümü * ***/
+
+    #contactKapsayici {
+        background: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        height: auto;
+    }
+
+    #contactPartLeft {
+        width: 590px;
+        position: relative;
+        margin-left: 20px;
+        float: center;
+        float: left;
+    }
+
+    #contactPartLeft h2 {
+        text-align: center;
+        padding-bottom: 5px;
+        border-bottom: 1px solid red;
+        margin-bottom: 20px;
+    }
+
+    #contactPartLeft p {
+        padding-bottom: 10px !important;
+    }
+
+    #contactPartLeft p span {
+        padding-right: 10px;
+        font-weight: bold;
+        color: orange;
+    }
+
+    #contactPartLeft #concactPartLeftSocial img {
+        width: 65px;
+        margin-top: 30px;
+    }
+
+    #contactPartLeft #concactPartLeftSocial img:hover {
+        transform: scale(1.1);
+    }
+
+    #contactPartLeft h3 {
+        text-align: center;
+        font-family: 'Righteous';
+        margin-top: 35px;
+    }
+
+    #contactPartRight {
+        width: 590px;
+        position: relative;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin: auto;
+        float: right;
+        text-align: center;
+    }
+
+    #contactPartRight h2 {
+        text-align: center;
+        padding-bottom: 5px;
+        border-bottom: 1px solid red;
+        margin-bottom: 20px;
+    }
+
+    #contactPartRight input {
+        width: 265px;
+        height: 30px;
+        padding-left: 10px;
+        margin-left: 10px;
+        font-size: 15px;
+        border-radius: 10px;
+    }
+
+    #contactPartRight input:nth-child(3) {
+        width: 350px;
+        margin-top: 20px;
+    }
+
+    #contactPartRight textarea {
+        margin: 20px auto;
+        width: 500px;
+        height: 200px;
+        font-size: 15px;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    #contactPartRight input:nth-child(4) {
+        font-weight: bold;
+        font-size: 18px;
+        border-radius: 0;
+    }
+
+    #contactPartRight input:nth-child(4):hover {
+        background: lightslategray;
+        cursor: pointer;
+    }
+
+    #concactPartMaps {
+        margin-top: -120px;
+    }
+
+    /* ***Rezervasyon Bölümü *** */
+
+    #rezervationKapsayici {
+        background: rgba(1, 19, 12, 0.8);
+        width: 100%;
+        height: 100vh;
+        margin: auto;
+    }
+
+    #rezervationLeft {
+        width: 605px;
+        position: relative;
+        margin-left: auto;
+        margin-top: 17px;
+    }
+
+    #rezervationLeft h2 {
+        font-size: 40px;
+        text-align: center;
+        color: #4cd137;
+    }
+
+    #rezervationLeft table {
+        margin-top: 20px !important;
+        margin: auto;
+    }
+
+    #rezervationLeft table thead tr th,
+    #rezervationLeft table tbody tr td {
+        border: 1.5px solid black;
+        padding: 6px 40px;
+        font-size: 22px;
+        margin: 10px;
+    }
+
+    #rezervationLeft thead {
+        color: black;
+        font-size: 50px !important;
+    }
+
+    #rezervationRight {
+        width: 605px;
+        margin: auto;
+        position: relative;
+    }
+
+    #rezervationRight #rezervationRightUst h1 {
+        font-size: 30px;
+        color: white;
+        padding: 0;
+        margin-bottom: 10px;
+        color: #4cd137;
+    }
+
+    #rezervationRight #rezervationRightUst h3 {
+        font-family: 'Righteous';
+        padding-left: 30px;
+        color: #4cd137;
+    }
+
+    #rezervationRight img {
+        float: left;
+        width: 25px;
+        margin-left: 98px;
+    }
+
+    #rezervationRight #rezervationRightUstLeft {
+        float: left;
+        width: 300px;
+        font-weight: 100;
+    }
+
+    #rezervationRight #rezervationRightUstRight {
+        float: right;
+        width: 300px;
+    }
+
+    #rezervationRight #rezervationRightUst p {
+        float: left;
+        padding: 8px;
+        font-size: 15px;
+    }
+
+    #rezervationRightAlt {
+        margin-top: 280px;
+        position: relative;
+        padding: 20px;
+        padding-top: 0;
+    }
+
+    #rezervationRightAlt ul {
+        list-style-type: none;
+        line-height: 27px;
+    }
+
+    #rezervationRightAlt ul li span {
+        font-weight: bold;
+        padding-right: 10px;
+    }
+
+    /* *** Menü Bölümü * ***/
+
+    #MenuPage {
+        position: relative;
+        margin: auto;
+    }
+
+    #menuKapsayici {
+        background: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        height: 5920px;
+    }
+
+    /*** 1 ***/
+    #MenuPage .menuFirstElement img:nth-child(1) {
+        width: 500px;
+        height: 350px;
+        float: left;
+        position: relative;
+    }
+
+    #MenuPage .menuFirstElement img:nth-child(2) {
+        width: 36px;
+        height: 26px;
+        position: relative;
+        top: 160px;
+        margin-left: 50px;
+    }
+
+    .menuFirstElement #menuRightSection {
+        width: 666px;
+        height: auto;
+        margin: auto;
+        text-align: center;
+    }
+
+    #MenuPage .menuFirstElement #elementName {
+        width: 600px;
+        height: auto;
+        display: inline-block;
+        text-align: center;
+        font-family: 'Righteous';
+        font-size: 40px;
+        color: red;
+        text-shadow: 1px 1px 0.5px #000000;
+    }
+
+    #MenuPage .menuFirstElement #urunInfo {
+        width: 500px;
+        height: auto;
+        display: inline-block;
+        margin-top: 10px;
+        text-align: left;
+        padding-bottom: 15px;
+        border-bottom: 1px solid red;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #MenuPage .menuFirstElement #urunPrice {
+        width: 600px;
+        height: auto;
+        display: inline-block;
+        margin-top: 10px;
+        font-size: 40px;
+        font-weight: bold;
+        color: yellow;
+    }
+
+    /*** 2 ***/
+
+    #MenuPage .menuSecondElement img:nth-child(1) {
+        width: 500px;
+        height: 350px;
+        float: right;
+        margin-top: -26px;
+        position: relative;
+    }
+
+    #MenuPage .menuSecondElement img:nth-child(2) {
+        width: 36px;
+        height: 26px;
+        position: relative;
+        top: 160px;
+        margin-right: 50px;
+    }
+
+    .menuSecondElement #menuLeftSection {
+        width: 666px;
+        height: auto;
+        margin: auto;
+        text-align: center;
+    }
+
+    #MenuPage .menuSecondElement #elementName {
+        width: 600px;
+        height: auto;
+        display: inline-block;
+        text-align: center;
+        font-family: 'Righteous';
+        font-size: 40px;
+        color: red;
+        text-shadow: 1px 1px 0.5px #000000;
+        margin-top: 50px;
+    }
+
+    #MenuPage .menuSecondElement #urunInfo {
+        width: 500px;
+        height: auto;
+        display: inline-block;
+        margin-top: 10px;
+        text-align: right;
+        padding-bottom: 15px;
+        border-bottom: 1px solid red;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #MenuPage .menuSecondElement #urunPrice {
+        width: 600px;
+        height: auto;
+        display: inline-block;
+        margin-top: 10px;
+        font-size: 40px;
+        font-weight: bold;
+        color: yellow;
+    }
+
+    /* *** Paket Servis Bölümü * ***/
+
+    #packageServiceKapsayici {
+        background: rgba(1, 19, 12, 0.8);
+        width: 100%;
+        height: 100vh;
+        margin: auto;
+    }
+
+    #packageService {
+        width: 1250px;
+        height: auto;
+        margin: auto;
+        display: inline-block;
+        text-align: center;
+    }
+
+    #packageService #contact li {
+        list-style-type: none;
+        line-height: 30px;
+    }
+
+    #packageService #contact span {
+        font-weight: bold;
+        color: red;
+        padding-right: 10px;
+    }
+
+    #alopaketimg {
+        width: 500px;
+        border: 3px solid black;
+        padding: 10px;
+        float: left;
+    }
+
+    #alopaketimgicon {
+        width: 60px;
+        height: 60px;
+        margin: auto;
+        display: inline-block;
+        text-align: center;
+    }
+
+    #packageService #uorestAciklama {
+        font-size: 17px;
+        text-decoration: underline;
+    }
+
+    /* *** Footer Bölümü * ***/
+
+    footer {
+        width: 100%;
+        height: 500px;
+        background: url("../image/footer.jpg");
+        background-size: cover;
+        position: relative;
+    }
+
+    #footerContanier {
+        width: 1526px;
+        margin: auto;
+        position: relative;
+    }
+
+    #footerContanier #footerLogoLeft {
+        font-family: 'Pacifico', cursive;
+        font-size: 90px;
+        font-weight: bold;
+        color: #ffffff;
+        position: relative;
+        top: 125px;
+        left: 60px;
+        display: inline-block;
+    }
+
+    #footerContanier #footerSocialIcon {
+        position: relative;
+        top: 210px;
+        left: -300px;
+        display: inline-block;
+    }
+
+    #footerContanier #footerSocialIcon img {
+        width: 70px;
+        height: 70px;
+        cursor: pointer;
+    }
+
+    #footerContanier #footerSocialIcon img:hover {
+        transform: scale(1.1);
+    }
+
+    #footerContanier #footerCenter {
+        width: 430px;
+        position: absolute;
+        top: 120px;
+        left: 545px;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    #footerContanier #footerCenter h3,
+    #footerRight h3 {
+        font-size: 40px;
+        font-family: 'Righteous';
+        border-bottom: 2px solid red;
+        text-align: center;
+        margin-bottom: 10px;
+        padding-bottom: 5px;
+    }
+
+    #footerRight input:focus {
+        border: 2px solid blue;
+    }
+
+    #footerContanier #footerCenter p {
+        line-height: 30px;
+    }
+
+    #footerContanier #footerCenter p span {
+        color: red;
+        font-weight: 400;
+        text-indent: 10px;
+        margin-right: 10px;
+    }
+
+    #footerContanier #footerRight {
+        width: 400px;
+        left: 1030px;
+        display: inline-block;
+        position: absolute;
+        top: 120px;
+        color: white;
+        text-align: center;
+    }
+
+    #footerContanier #footerRight p {
+        padding: 10px;
+        line-height: 30px;
+        padding-bottom: 20px;
+    }
+
+    #footerContanier #footerRight input {
+        margin-top: 10px;
+        width: 280px;
+        height: 28px;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    #footerContanier #footerRight button {
+        width: 320px;
+        height: 30px;
+        margin-top: 20px;
+        background: orange;
+        font-weight: bold;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    #footerContanier #footerRight button:hover {
+        transform: scale(1.15);
+    }
+
+    #copyRight {
+        background: #000000;
+        padding: 18px;
+        color: white;
+        font-size: 15px;
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width:960px) and (max-width:1365px) {
+    #mainHeader {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        background: url(../image/header-bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #contentHeader {
+        width: 100%;
+        height: 400px;
+        position: relative;
+    }
+
+    #headerContanier {
+        width: 940px;
+        height: 100vh;
+        margin: auto;
+    }
+
+    #contentHeaderContanier {
+        width: 940px;
+        height: 320px;
+        margin: auto;
+    }
+
+    #headerTop {
+        width: 940px;
+        height: 45px;
+        position: relative;
+    }
+
+    #headerTopLeftUl {
+        display: inline-block;
+    }
+
+    #headerTopLeftUl ul li {
+        list-style-type: none;
+        display: inline-block;
+        line-height: 45px;
+        font-weight: bold;
+        border-right: 1px solid orange;
+        padding: 0 8px;
+    }
+
+    #headerTopLeftUl ul li:first-child {
+        padding-left: 0;
+    }
+
+    #headerTopLeftUl ul li:last-child {
+        border-right: 0;
+        padding-right: 0;
+    }
+
+    #headerTopLeftUl ul li a {
+        list-style-type: none;
+        color: #0097e6;
+    }
+
+    #headerTopLeftUl ul li a:hover {
+        color: white;
+    }
+
+    #headerTopLeftUl ul li a:active {
+        color: yellowgreen;
+    }
+
+    #headerTopRight {
+        float: right;
+    }
+
+    .headerTopRightLogo {
+        width: 30px;
+        height: 30px;
+        float: left;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-left: 20px;
+    }
+
+    .headerTopRightLogo:first-child {
+        margin-left: 0;
+    }
+
+    .headerTopRightText {
+        float: left;
+        line-height: 50px;
+        color: #dcdde1;
+    }
+
+    /** ** ** Nav Bölümü ** ** **/
+
+    #menuIconMobile{
+        display: none;
+    }
+    
+    #navContanierRightUlMobile{
+        display: none;
+    }
+
+    nav {
+        width: 100%;
+        height: 75px;
+        position: absolute;
+        top: 45px;
+        background: rgba(0, 0, 0, 0.5);
+    }
+
+    #navContanier {
+        width: 940px;
+        height: 75px;
+        margin: auto;
+    }
+
+    #navContanierLogo {
+        font-family: 'Righteous', 'Segoe UI';
+        color: white;
+        font-size: 40px;
+        font-weight: bold;
+        display: inline;
+        position: relative;
+        line-height: 75px;
+    }
+
+    #navContanierRightUl {
+        float: right;
+    }
+
+    #navContanierRightUl ul {
+        list-style-type: none;
+        font-weight: 600;
+    }
+
+    #navContanierRightUl ul li {
+        float: left;
+        margin-left: 20px;
+    }
+
+    #navContanierRightUl ul li:first-child {
+        margin-left: 0
+    }
+
+    #navContanierRightUl ul li a {
+        color: #ffffff;
+        line-height: 75px;
+    }
+
+    #navContanierRightUl ul li a:hover {
+        color: #8c7ae6;
+    }
+
+    #navContanierRightUl ul li a:active {
+        color: #e1b12c;
+    }
+
+    #headerText {
+        position: absolute;
+        top: 260px;
+        color: #ffffff;
+    }
+
+    #headerText:last-child {
+        margin: 0;
+    }
+
+    #headerText h1 {
+        font-size: 45px;
+        text-shadow: 5px 5px 6px black;
+        margin-bottom: 15px;
+        display: inline-block;
+    }
+
+    #headerText h2 {
+        font-size: 28px;
+        text-shadow: 5px 5px 6px black;
+        margin-bottom: 15px;
+        display: inline-block;
+    }
+
+    #headerText h3 {
+        font-size: 19px;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 3px 15px;
+        padding-right: 0;
+        text-shadow: 3px 3px 5px black;
+        font-weight: 400;
+    }
+
+    #headerTextButton {
+        margin-top: 40px;
+    }
+
+    #headerTextButton a {
+        border: 1px solid #ffffff;
+        padding: 18px;
+        color: #ffffff;
+        transition: all .5s ease-in-out;
+        text-shadow: 1px 1px 1px black;
+    }
+
+    #headerTextButton a:first-child {
+        background: red;
+    }
+
+    #headerTextButton a:last-child {
+        margin-left: 20px;
+        background: red;
+    }
+
+    #headerTextButton a:last-child:hover {
+        background: transparent;
+    }
+
+    #headerTextButton a:first-child:hover {
+        background: transparent;
+    }
+
+    #headerTextButton a:active {
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        transition: none;
+        text-shadow: none;
+    }
+
+    /*** Section Başlangıcı ***/
+
+    /*** Birinci Section ***/
+
+    #section_Ilk {
+        width: 100%;
+        height: 100vh;
+        background: url(../image/section1.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 1px;
+        margin-top: 0;
+    }
+
+    .limitedSection {
+        width: 940px;
+        height: 650px;
+        position: relative;
+        margin: auto;
+        margin-top: 40px;
+    }
+
+    .limitedSection h1 {
+        text-align: center;
+        font-size: 35px;
+        background: red;
+        display: inline-block;
+        padding: 1px 10px;
+    }
+
+    .limitedSection h2 {
+        text-align: center;
+        font-size: 23px;
+        margin-top: 7px;
+        font-weight: 500;
+        background: red;
+        display: inline-block;
+        padding: 1px 10px;
+    }
+
+    .limitedSection img {
+        width: 490px;
+        border: 1px solid black;
+        padding: 10px;
+        margin-top: 80px;
+        float: left;
+        display: block;
+    }
+
+    #limitedSectionBasliklar {
+        text-align: center;
+    }
+
+    .limitedSection article {
+        width: 400px;
+        float: right;
+        padding-left: 20px;
+    }
+
+    .limitedSection article img {
+        width: 50px;
+        height: 50px;
+        margin-left: 160px;
+        border: none;
+        margin-top: 8px;
+    }
+
+    .limitedSection article p {
+        float: left;
+        margin-bottom: 15px;
+        text-indent: 15px;
+        font-weight: 500;
+        color: black;
+        padding: 7px;
+        background-color: white;
+        font-size: 12.5px;
+    }
+
+    .limitedSection article p:nth-child(4) {
+        margin-bottom: 0px;
+    }
+
+    /*** İkinci Section ***/
+
+    section .unLimitedSection {
+        width: 100%;
+        height: 540px;
+        position: relative;
+        background: black;
+    }
+
+    #unLimitedSectionMenuContanier {
+        width: 940px;
+        height: 540px;
+        position: relative;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    #unLimitedSectionMenuContanier img {
+        width: 235px;
+        height: 250px;
+        opacity: 0.3;
+        transition: all 0.3s ease-in-out;
+    }
+
+    #unLimitedSectionMenuContanier img:hover {
+        cursor: pointer;
+        opacity: 1;
+        transform: scale(1.05);
+    }
+
+    #unLimitedSectionMenuContanierLink {
+        margin-top: 117px;
+        position: absolute;
+        width: 710px;
+        height: 300px;
+        border: 0.1px solid #ffffff;
+        text-align: center;
+        padding: 0px 20px;
+    }
+
+    #unLimitedSectionMenuContanierLink h1 {
+        color: rgb(241, 226, 12);
+        font-size: 35px;
+        line-height: 163px;
+    }
+
+    #unLimitedSectionMenuContanierLink a {
+        border: 3px solid white;
+        padding: 10px;
+        font-size: 22px;
+        font-weight: bold;
+        color: white;
+        line-height: 37px;
+    }
+
+    #unLimitedSectionMenuContanierLink a:hover {
+        background: red;
+        color: #ffffff;
+    }
+
+    /*** Üçüncü Section ***/
+
+    #section_Uc {
+        width: 100%;
+        height: 570px;
+        background: url("../image/section3.jpg");
+        background-size: cover;
+        padding-bottom: 30px;
+    }
+
+    #teamContanier {
+        width: 940px;
+        height: 650px;
+        margin: auto;
+    }
+
+    #teamContanier h1 {
+        padding-top: 30px;
+        font-size: 45px;
+        text-align: center;
+        color: darkblue;
+    }
+
+    #teamContanier .teamTile {
+        overflow: hidden;
+        float: left;
+        margin-left: 38.5px;
+    }
+
+    #teamContanier img {
+        width: 250px;
+        height: 402px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        border: 1px solid black;
+        padding: 10px;
+    }
+
+    #teamContanier .teamTile .teamHover {
+        position: relative;
+        width: 272px;
+        height: 427px;
+        background: url(../image/hover.jpg);
+        opacity: 0.7;
+        background-size: cover;
+        margin-top: -450px;
+        margin-left: -272px;
+        transition: all 0.8s ease;
+    }
+
+    #teamContanier .teamTile .teamHover .teamHoverText {
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: white;
+        background: #000000;
+        text-shadow: 1px 1px 1px black;
+        width: 272px;
+        position: absolute;
+        margin-top: 170px;
+    }
+
+    #teamContanier .teamTile:hover .teamHover {
+        margin-left: 0;
+    }
+
+    /* *** Dördüncü Section Alanı *** */
+
+    #unLimitedSection2 {
+        width: 100%;
+        height: 100vh;
+        margin: auto;
+        background-image: url(../image/section4.jpg);
+        background-size: cover;
+        position: relative;
+    }
+
+    #unLimitedSection2 #unLimitedSection2Left {
+        margin-top: 122px;
+        margin-left: 100px;
+        position: absolute;
+        width: 500px;
+        height: 400px;
+        background: rgba(11, 17, 0, 0.8);
+        color: white;
+        padding: 30px;
+        text-align: center;
+    }
+
+    #unLimitedSection2 #unLimitedSection2Left h1 {
+        font-size: 40px;
+        line-height: 30px;
+        margin-top: 45px;
+    }
+
+    #unLimitedSection2 #unLimitedSection2Left h2 {
+        font-size: 27px;
+        line-height: 85px;
+    }
+
+    #unLimitedSection2 #unLimitedSection2Left p {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    #unLimitedSection2 #unLimitedSection2Left h3 {
+        font-size: 18px;
+        text-decoration: underline;
+    }
+
+    .contentSection {
+        width: 940px;
+        height: 100vh;
+        position: relative;
+        margin: 30px auto;
+        margin-top: 80px;
+    }
+
+    #contentSectionKapsayici {
+        background: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        height: 850px;
+    }
+
+    #contentHeader .contentSection h1 {
+        text-align: center;
+        padding-top: 36px;
+        padding-bottom: 35px;
+        font-size: 60px;
+        color: yellow;
+    }
+
+    #contentHeader .contentSection p {
+        line-height: 20px;
+        padding-bottom: 27px;
+        text-indent: 15px;
+        font-size: 15px;
+        color: #fff;
+    }
+
+    /* *** İletişim Bölümü * ***/
+
+    #contactKapsayici {
+        background: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin: auto;
+    }
+
+    #contactPartLeft {
+        width: 590px;
+        position: relative;
+        margin-left: 20px;
+        margin: auto;
+    }
+
+    #contactPartLeft h2 {
+        text-align: center;
+        padding-bottom: 5px;
+        border-bottom: 1px solid red;
+        margin-bottom: 20px;
+    }
+
+    #contactPartLeft p {
+        padding-bottom: 10px !important;
+    }
+
+    #contactPartLeft p span {
+        padding-right: 10px;
+        font-weight: bold;
+        color: orange;
+    }
+
+    #contactPartLeft #concactPartLeftSocial img {
+        width: 65px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #contactPartLeft #concactPartLeftSocial img:hover {
+        transform: scale(1.1);
+    }
+
+    #contactPartLeft h3 {
+        text-align: center;
+        font-family: 'Righteous';
+        margin-top: 35px;
+    }
+
+    #contactPartRight {
+        width: 590px;
+        position: relative;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin: auto;
+    }
+
+    #contactPartRight h2 {
+        text-align: center;
+        padding-bottom: 5px;
+        border-bottom: 1px solid red;
+        margin-bottom: 20px;
+    }
+
+    #contactPartRight input {
+        width: 265px;
+        height: 30px;
+        padding-left: 10px;
+        margin-left: 10px;
+        font-size: 15px;
+        border-radius: 10px;
+    }
+
+    #contactPartRight input:nth-child(3) {
+        width: 350px;
+        margin-top: 20px;
+    }
+
+    #contactPartRight textarea {
+        margin: 20px auto;
+        width: 500px;
+        height: 200px;
+        font-size: 15px;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    #contactPartRight input:nth-child(4) {
+        font-weight: bold;
+        font-size: 18px;
+        border-radius: 0;
+    }
+
+    #contactPartRight input:nth-child(4):hover {
+        background: lightslategray;
+        cursor: pointer;
+    }
+
+    #concactPartMaps {
+        text-align: center;
+        margin-top: 300px;
+        position: relative;
+    }
+
+    /* ***Rezervasyon Bölümü *** */
+
+    #rezervationKapsayici {
+        background: rgba(1, 19, 12, 0.8);
+        width: 100%;
+        height: 600px;
+        margin: auto;
+        margin-top: 80px;
+    }
+
+    #rezervationLeft {
+        width: 370px;
+        position: relative;
+        margin-left: auto;
+        margin-top: 47px;
+        margin-left: 0px;
+    }
+
+    #rezervationLeft h2 {
+        font-size: 34px;
+        margin: auto;
+        text-align: center;
+        color: #4cd137;
+    }
+
+    #rezervationLeft table {
+        margin-top: 20px !important;
+        margin: auto;
+    }
+
+    #rezervationLeft table thead tr th,
+    #rezervationLeft table tbody tr td {
+        border: 1.5px solid black;
+        padding: 4px 20px;
+        font-size: 17px;
+        margin: 10px;
+    }
+
+    #rezervationLeft thead {
+        color: black;
+    }
+
+    #rezervationRight {
+        width: 570px;
+        margin: auto;
+        position: relative;
+    }
+
+    #rezervationRight #rezervationRightUst h1 {
+        font-size: 25px;
+        color: white;
+        padding: 0;
+        margin-bottom: 10px;
+        color: #4cd137;
+    }
+
+    #rezervationRight #rezervationRightUst h3 {
+        font-family: 'Righteous';
+        padding-left: 30px;
+        color: #4cd137;
+    }
+
+    #rezervationRight img {
+        float: left;
+        width: 25px;
+        margin-left: 98px;
+    }
+
+    #rezervationRight #rezervationRightUstLeft {
+        float: left;
+        width: 280px;
+        font-weight: 100;
+    }
+
+    #rezervationRight #rezervationRightUstRight {
+        float: right;
+        width: 280px;
+    }
+
+    #rezervationRight #rezervationRightUst p {
+        float: left;
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    #rezervationRightAlt {
+        margin-top: 270px;
+        position: relative;
+        padding: 15px;
+        padding-top: 0;
+    }
+
+    #rezervationRightAlt #iletisim {
+        padding-bottom: 20px;
+        color: black;
+        font-weight: bold;
+    }
+
+    #rezervationRightAlt ul {
+        list-style-type: none;
+        line-height: 25px;
+        font-size: 15px;
+    }
+
+    #rezervationRightAlt ul li span {
+        font-weight: bold;
+        padding-right: 7px;
+    }
+
+    /* *** Menü Bölümü * ***/
+
+    #MenuPage {
+        position: relative;
+        margin: auto;
+    }
+
+    #menuKapsayici {
+        background: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        height: 4800px;
+    }
+
+    /*** 1 ***/
+    #MenuPage .menuFirstElement img:nth-child(1) {
+        width: 400px;
+        height: 270px;
+        float: left;
+        position: relative;
+    }
+
+    #MenuPage .menuFirstElement img:nth-child(2) {
+        width: 26px;
+        height: 18px;
+        position: relative;
+        top: 120px;
+        margin-left: 30px;
+    }
+
+    .menuFirstElement #menuRightSection {
+        width: 400px;
+        height: auto;
+        margin: auto;
+        text-align: center;
+    }
+
+    #MenuPage .menuFirstElement #elementName {
+        width: 400px;
+        height: auto;
+        display: inline-block;
+        text-align: center;
+        font-family: 'Righteous';
+        font-size: 30px;
+        color: red;
+        text-shadow: 1px 1px 0.5px #000000;
+        margin-top: 20px;
+    }
+
+    #MenuPage .menuFirstElement #urunInfo {
+        width: 350px;
+        height: auto;
+        display: inline-block;
+        margin-top: 8px;
+        text-align: left;
+        padding-bottom: 10px;
+        border-bottom: 1px solid red;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    #MenuPage .menuFirstElement #urunPrice {
+        width: 400px;
+        height: auto;
+        display: inline-block;
+        margin-top: 8px;
+        font-size: 30px;
+        font-weight: bold;
+        color: yellow;
+    }
+
+    /*** 2 ***/
+
+    #MenuPage .menuSecondElement img:nth-child(1) {
+        width: 400px;
+        height: 270px;
+        float: right;
+        margin-top: -26px;
+        position: relative;
+        margin-top: 15px;
+    }
+
+    #MenuPage .menuSecondElement img:nth-child(2) {
+        width: 26px;
+        height: 18px;
+        position: relative;
+        top: 120px;
+        margin-right: 30px;
+    }
+
+    .menuSecondElement #menuLeftSection {
+        width: 450px;
+        height: auto;
+        margin: auto;
+        text-align: center;
+    }
+
+    #MenuPage .menuSecondElement #elementName {
+        width: 400px;
+        height: auto;
+        display: inline-block;
+        text-align: center;
+        font-family: 'Righteous';
+        font-size: 30px;
+        color: red;
+        text-shadow: 1px 1px 0.5px #000000;
+        margin-top: 50px;
+    }
+
+    #MenuPage .menuSecondElement #urunInfo {
+        width: 350px;
+        height: auto;
+        display: inline-block;
+        margin-top: 8px;
+        text-align: right;
+        padding-bottom: 10px;
+        border-bottom: 1px solid red;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    #MenuPage .menuSecondElement #urunPrice {
+        width: 400px;
+        height: auto;
+        display: inline-block;
+        margin-top: 8px;
+        font-size: 30px;
+        font-weight: bold;
+        color: yellow;
+        margin-bottom: 30px;
+    }
+
+    /* *** Paket Servis Bölümü * ***/
+
+    #packageServiceKapsayici {
+        background: rgba(1, 19, 12, 0.8);
+        width: 100%;
+        height: 550px;
+        margin: auto;
+        margin-top: 80px;
+        padding-top: 0px;
+    }
+
+    #packageService {
+        width: 940px;
+        height: auto;
+        margin: auto;
+        display: inline-block;
+        text-align: center;
+    }
+
+    #packageService #contact li {
+        list-style-type: none;
+        line-height: 25px;
+        font-size: 14px;
+    }
+
+    #packageService #contact span {
+        font-weight: bold;
+        color: red;
+        padding-right: 10px;
+    }
+
+    #alopaketimg {
+        width: 400px;
+        border: 3px solid black;
+        padding: 10px;
+        float: left;
+        margin-top: 30px;
+    }
+
+    #alopaketimgicon {
+        width: 50px;
+        height: 50px;
+        margin: auto;
+        display: inline-block;
+        text-align: center;
+    }
+
+    #packageService #uorestAciklama {
+        font-size: 17px;
+        text-decoration: underline;
+    }
+
+
+    /* *** Footer Bölümü * ***/
+
+    footer {
+        width: 100%;
+        height: 350px;
+        background: url("../image/footer.jpg");
+        background-size: cover;
+        position: relative;
+        margin: auto;
+    }
+
+    #footerContanier {
+        width: 940px;
+        margin: auto;
+        position: relative;
+    }
+
+    #footerContanier #footerLogoLeft {
+        font-family: 'Pacifico', cursive;
+        font-size: 55px;
+        font-weight: bold;
+        color: #ffffff;
+        position: relative;
+        top: 80px;
+        left: 20px;
+        display: inline-block;
+        margin: auto;
+        text-align: center;
+    }
+
+    #footerContanier #footerSocialIcon {
+        position: relative;
+        top: 135px;
+        left: -197px;
+        display: inline-block;
+    }
+
+    #footerContanier #footerSocialIcon img {
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+    }
+
+    #footerContanier #footerSocialIcon img:hover {
+        transform: scale(1.1);
+    }
+
+    #footerContanier #footerCenter {
+        width: 300px;
+        position: absolute;
+        top: 72px;
+        left: 305px;
+        color: #ffffff;
+        text-align: center;
+        margin: auto;
+    }
+
+    #footerContanier #footerCenter h3,
+    #footerRight h3 {
+        font-size: 25px;
+        font-family: 'Righteous';
+        border-bottom: 1px solid red;
+        text-align: center;
+        margin-bottom: 7px;
+        padding-bottom: 3px;
+    }
+
+    #footerRight input:focus {
+        border: 2px solid blue;
+    }
+
+    #footerContanier #footerCenter p {
+        line-height: 25px;
+        font-size: 15px;
+    }
+
+    #footerContanier #footerCenter p span {
+        color: red;
+        font-weight: 400;
+        text-indent: 10px;
+        margin-right: 10px;
+    }
+
+    #footerContanier #footerRight {
+        width: 300px;
+        left: 620px;
+        display: inline-block;
+        position: absolute;
+        top: 72px;
+        color: white;
+        text-align: center;
+        margin: auto;
+    }
+
+    #footerContanier #footerRight p {
+        padding: 8px;
+        line-height: 25px;
+        padding-bottom: 10px;
+        font-size: 15px;
+    }
+
+    #footerContanier #footerRight input {
+        margin-top: 10px;
+        width: 220px;
+        height: 24px;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    #footerContanier #footerRight button {
+        width: 260px;
+        height: 24px;
+        margin-top: 20px;
+        background: orange;
+        font-weight: bold;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    #footerContanier #footerRight button:hover {
+        transform: scale(1.05);
+    }
+
+    #copyRight {
+        background: #000000;
+        padding: 18px;
+        color: white;
+        font-size: 15px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:720px) and (max-width:959px) {
+    #mainHeader {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        background: url(../image/header-bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #contentHeader {
+        width: 100%;
+        height: 300px;
+        position: relative;
+    }
+
+    #headerContanier {
+        width: 700px;
+        height: 100vh;
+        margin: auto;
+    }
+
+    #contentHeaderContanier {
+        width: 700px;
+        height: 250px;
+        margin: auto;
+    }
+
+    #headerTop {
+        width: 700px;
+        height: 45px;
+        position: relative;
+    }
+
+    #headerTopLeftUl {
+        display: inline-block;
+    }
+
+    #headerTopLeftUl ul li {
+        list-style-type: none;
+        display: inline-block;
+        line-height: 45px;
+        font-weight: bold;
+        border-right: 1px solid orange;
+        padding: 0 5px;
+        font-size: 15px;
+    }
+
+    #headerTopLeftUl ul li:first-child {
+        padding-left: 0;
+    }
+
+    #headerTopLeftUl ul li:last-child {
+        border-right: 0;
+        padding-right: 0;
+    }
+
+    #headerTopLeftUl ul li a {
+        list-style-type: none;
+        color: #0097e6;
+    }
+
+    #headerTopLeftUl ul li a:hover {
+        color: white;
+    }
+
+    #headerTopLeftUl ul li a:active {
+        color: yellowgreen;
+    }
+
+    #headerTopRight {
+        float: right;
+    }
+
+    .headerTopRightLogo {
+        width: 22px;
+        height: 22px;
+        float: left;
+        margin-top: 8px;
+        margin-right: 10px;
+        margin-left: 20px;
+    }
+
+    .headerTopRightLogo:first-child {
+        margin-left: 0;
+    }
+
+    .headerTopRightText {
+        float: left;
+        line-height: 45px;
+        color: #dcdde1;
+        font-size: 15px;
+        color: lightyellow;
+    }
+
+    /** ** ** Nav Bölümü ** ** **/
+
+    nav {
+        width: 100%;
+        height: 70px;
+        position: absolute;
+        top: 45px;
+        background: rgba(0, 0, 0, 0.5);
+    }
+
+    #navContanier {
+        width: 700px;
+        height: 70px;
+        margin: auto;
+    }
+
+    #navContanierLogo {
+        font-family: 'Righteous', 'Segoe UI';
+        color: white;
+        font-size: 40px;
+        font-weight: bold;
+        display: inline;
+        position: relative;
+        line-height: 70px;
+    }
+
+    #navContanierRightUl {
+        float: right;
+        display:none;
+    }
+
+     /* *** DESKTOP NAV RİGHT *** /
+
+    #navContanierRightUl ul {
+        list-style-type: none;
+        font-weight: 600;
+    }
+
+    #navContanierRightUl ul li {
+        float: left;
+        margin-left: 20px;
+    }
+
+    #navContanierRightUl ul li:first-child {
+        margin-left: 0
+    }
+
+    #navContanierRightUl ul li a {
+        color: #ffffff;
+        line-height: 70px;
+    }
+
+    #navContanierRightUl ul li a:hover {
+        color: #8c7ae6;
+    }
+
+    #navContanierRightUl ul li a:active {
+        color: #e1b12c;
+    }
+    *** */ 
+
+    /* *** navContanierRightUlMobile **/
+
+    #navContanierRightUlMobile{
+        background:darkred;
+        width:700px;
+        text-align: center; 
+        position: relative;
+        top:0; 
+        margin:auto;
+        display: none;
+    }
+
+    #navContanierRightUlMobile ul{
+        list-style-type: none;
+    }
+
+    #navContanierRightUlMobile ul li{
+        line-height:40px;
+    }
+    
+    #navContanierRightUlMobile ul li{
+        border-bottom: 1px solid white;
+    }
+    
+    #navContanierRightUlMobile ul li:last-child{
+        border-bottom: none;
+    }
+
+    #navContanierRightUlMobile ul li a:hover{
+        background:white;
+        color:darkred;
+        border-bottom:1px solid darkred;
+    }
+
+    #navContanierRightUlMobile ul li a:active{
+        background:yellow;
+        color:darkred;
+        border-bottom:1px solid darkred;
+        font-weight: bold;
+        font-size:20px;
+    }
+
+    #navContanierRightUlMobile ul li a{
+        color:white;
+        display: block;
+    }
+
+    #menuIconMobile{
+        width:50px;
+        height:50px;
+        background: url("../image/menu3.png") no-repeat;
+       background-size:100%;
+        float:right;
+        position: relative;
+        margin-right:15px;
+        margin-top:-61px    ;
+        cursor: pointer;
+    }
+
+    #menuIconMobile:hover{
+        transform:scale(1.25);
+    }
+
+    #menuIconMobile:active{
+        transform:scale(1.15);
+    }
+
+    /** **   *** ***/
+
+    #headerText {
+        position: absolute;
+        top: 230px;
+        color: #ffffff;
+    }
+
+    #headerText:last-child {
+        margin: 0;
+    }
+
+    #headerText h1 {
+        font-size: 42px;
+        text-shadow: 5px 5px 6px black;
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+
+    #headerText h2 {
+        font-size: 27px;
+        text-shadow: 5px 5px 6px black;
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+
+    #headerText h3 {
+        font-size: 18px;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 2px 15px;
+        padding-right: 0;
+        text-shadow: 3px 3px 5px black;
+        font-weight: 400;
+    }
+
+    #headerTextButton {
+        margin-top: 35px;
+    }
+
+    #headerTextButton a {
+        border: 1px solid #ffffff;
+        padding: 16px;
+        color: #ffffff;
+        transition: all .5s ease-in-out;
+        text-shadow: 1px 1px 1px black;
+    }
+
+    #headerTextButton a:first-child {
+        background: red;
+    }
+
+    #headerTextButton a:last-child {
+        margin-left: 15px;
+        background: red;
+    }
+
+    #headerTextButton a:last-child:hover {
+        background: transparent;
+    }
+
+    #headerTextButton a:first-child:hover {
+        background: transparent;
+    }
+
+    #headerTextButton a:active {
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        transition: none;
+        text-shadow: none;
+    }
+
+    /*** Section Başlangıcı ***/
+
+    /*** Birinci Section ***/
+
+    #section_Ilk {
+        width: 100%;
+        height: 100vh;
+        background: url(../image/section1.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 1px;
+        margin-top: 0;
+    }
+
+    .limitedSection {
+        width: 700px;
+        height: 550px;
+        position: relative;
+        margin: auto;
+        margin-top: 25px;
+    }
+
+    .limitedSection h1 {
+        text-align: center;
+        font-size: 30px;
+        background: red;
+        display: inline-block;
+        padding: 1px 10px;
+    }
+
+    .limitedSection h2 {
+        text-align: center;
+        font-size: 20px;
+        margin-top: 5px;
+        font-weight: 500;
+        background: red;
+        display: inline-block;
+        padding: 1px 10px;
+    }
+
+    .limitedSection img {
+        width: 320px;
+        height: 300px;
+        padding: 5px;
+        margin-top: 84px;
+        float: left;
+        display: block;
+    }
+
+    #limitedSectionBasliklar {
+        text-align: center;
+    }
+
+    .limitedSection article {
+        width: 350px;
+        float: right;
+        padding-left: 20px;
+    }
+
+    .limitedSection article img {
+        width: 50px;
+        height: 50px;
+        margin-left: 140px;
+        border: none;
+        margin-top: 8px;
+    }
+
+    .limitedSection article p {
+        float: left;
+        margin-bottom: 15px;
+        text-indent: 13px;
+        font-weight: 500;
+        color: black;
+        padding: 5px;
+        background-color: white;
+        font-size: 11.5px;
+    }
+
+    .limitedSection article p:nth-child(4) {
+        margin-bottom: 0px;
+    }
+
+    /*** İkinci Section ***/
+
+    section .unLimitedSection {
+        width: 100%;
+        height: 540px;
+        position: relative;
+        background: black;
+    }
+
+    #unLimitedSectionMenuContanier {
+        width: 700px;
+        height: 540px;
+        position: relative;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    #unLimitedSectionMenuContanier img {
+        width: 175px;
+        height: 186px;
+        opacity: 0.3;
+        transition: all 0.3s ease-in-out;
+    }
+
+    #unLimitedSectionMenuContanier img:hover {
+        cursor: pointer;
+        opacity: 1;
+        transform: scale(1.05);
+    }
+
+    #unLimitedSectionMenuContanierLink {
+        margin-top: 167px;
+        position: absolute;
+        width: 550px;
+        height: 200px;
+        border: 0.1px solid #ffffff;
+        text-align: center;
+        padding: 0px 20px;
+    }
+
+    #unLimitedSectionMenuContanierLink h1 {
+        color: rgb(241, 226, 12);
+        font-size: 27px;
+        line-height: 118px;
+    }
+
+    #unLimitedSectionMenuContanierLink a {
+        border: 3px solid white;
+        padding: 8px;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        line-height: 17px;
+    }
+
+    #unLimitedSectionMenuContanierLink a:hover {
+        background: red;
+        color: #ffffff;
+    }
+
+    /*** Üçüncü Section ***/
+
+    #section_Uc {
+        width: 100%;
+        height: 100vh;
+        background: url("../image/section3.jpg");
+        background-size: cover;
+        padding-bottom: 30px;
+    }
+
+    #teamContanier {
+        width: 700px;
+        height: 550px;
+        margin: auto;
+    }
+
+    #teamContanier h1 {
+        padding-top: 80px;
+        font-size: 40px;
+        text-align: center;
+        color: darkblue;
+    }
+
+    #teamContanier .teamTile {
+        overflow: hidden;
+        float: left;
+        margin-left: 28.5px;
+    }
+
+    #teamContanier img {
+        width: 180px;
+        height: 300px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+        border: 1px solid black;
+        padding: 10px;
+    }
+
+    #teamContanier .teamTile .teamHover {
+        position: relative;
+        width: 202px;
+        height: 321px;
+        background: url(../image/hover.jpg);
+        opacity: 0.7;
+        background-size: cover;
+        margin-top: -345px;
+        margin-left: -272px;
+        transition: all 0.8s ease;
+    }
+
+    #teamContanier .teamTile .teamHover .teamHoverText {
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        color: white;
+        background: #000000;
+        text-shadow: 1px 1px 1px black;
+        width: 202px;
+        position: absolute;
+        margin-top: 120px;
+        font-size: 14px;
+    }
+
+    #teamContanier .teamTile:hover .teamHover {
+        margin-left: 0;
+    }
+
+    /* *** Dördüncü Section Alanı *** */
+
+    #unLimitedSection2 {
+        width: 100%;
+        height: 100vh;
+        margin: auto;
+        background-image: url(../image/section4.jpg);
+        background-size: cover;
+        position: relative;
+    }
+
+    #unLimitedSection2 #unLimitedSection2Left {
+        margin-top: 152px;
+        margin-left: 110px;
+        position: absolute;
+        width: 450px;
+        height: 290px;
+        background: rgba(11, 17, 0, 0.8);
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+
+    #unLimitedSection2 #unLimitedSection2Left h1 {
+        font-size: 30px;
+        line-height: 30px;
+        margin-top: 20px;
+    }
+
+    #unLimitedSection2 #unLimitedSection2Left h2 {
+        font-size: 22px;
+        line-height: 40px;
+    }
+
+    #unLimitedSection2 #unLimitedSection2Left p {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    #unLimitedSection2 #unLimitedSection2Left h3 {
+        font-size: 19px;
+        text-decoration: underline;
+    }
+
+    .contentSection {
+        width: 700px;
+        height: auto;
+        position: relative;
+        margin: 20px auto;
+        margin-top: 50px;
+    }
+
+    #contentSectionKapsayici {
+        background: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        height: 850px;
+    }
+
+    #contentHeader .contentSection h1 {
+        text-align: center;
+        padding-top: 26px;
+        padding-bottom: 25px;
+        font-size: 45px;
+        color: yellow;
+    }
+
+    #contentHeader .contentSection p {
+        line-height: 19px;
+        padding-bottom: 24px;
+        text-indent: 15px;
+        font-size: 14px;
+        color: #fff;
+    }
+
+    /* *** İletişim Bölümü * ***/
+
+    #contactKapsayici {
+        background: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin: auto;
+    }
+
+    #contactPartLeft {
+        width: 590px;
+        position: relative;
+        margin-left: 20px;
+        margin: auto;
+    }
+
+    #contactPartLeft h2 {
+        text-align: center;
+        padding-bottom: 5px;
+        border-bottom: 1px solid red;
+        margin-bottom: 20px;
+    }
+
+    #contactPartLeft p {
+        padding-bottom: 10px !important;
+    }
+
+    #contactPartLeft p span {
+        padding-right: 10px;
+        font-weight: bold;
+        color: orange;
+    }
+
+    #contactPartLeft #concactPartLeftSocial img {
+        width: 65px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #contactPartLeft #concactPartLeftSocial img:hover {
+        transform: scale(1.1);
+    }
+
+    #contactPartLeft h3 {
+        text-align: center;
+        font-family: 'Righteous';
+        margin-top: 35px;
+    }
+
+    #contactPartRight {
+        width: 590px;
+        position: relative;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin: auto;
+    }
+
+    #contactPartRight h2 {
+        text-align: center;
+        padding-bottom: 5px;
+        border-bottom: 1px solid red;
+        margin-bottom: 20px;
+    }
+
+    #contactPartRight input {
+        width: 265px;
+        height: 30px;
+        padding-left: 10px;
+        margin-left: 10px;
+        font-size: 15px;
+        border-radius: 10px;
+    }
+
+    #contactPartRight input:nth-child(3) {
+        width: 350px;
+        margin-top: 20px;
+    }
+
+    #contactPartRight textarea {
+        margin: 20px auto;
+        width: 500px;
+        height: 200px;
+        font-size: 15px;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    #contactPartRight input:nth-child(4) {
+        font-weight: bold;
+        font-size: 18px;
+        border-radius: 0;
+    }
+
+    #contactPartRight input:nth-child(4):hover {
+        background: lightslategray;
+        cursor: pointer;
+    }
+
+    #concactPartMaps {
+        text-align: center;
+        margin-top: 30px;
+        position: relative;
+    }
+
+    /* ***Rezervasyon Bölümü *** */
+
+    #rezervationKapsayici {
+        background: rgba(1, 19, 12, 0.8);
+        width: 100%;
+        height: 600px;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    #rezervationLeft {
+        width: 240px;
+        position: relative;
+        margin-left: auto;
+        margin-top: 47px;
+        margin-left: 0px;
+    }
+
+    #rezervationLeft h2 {
+        font-size: 24px;
+        margin: auto;
+        text-align: center;
+        color: #4cd137;
+        margin-bottom:-10px;
+    }
+
+    #rezervationLeft table {
+        margin-top: 20px !important;
+        margin: auto;
+    }
+
+    #rezervationLeft table thead tr th,
+    #rezervationLeft table tbody tr td {
+        border: 1.5px solid black;
+        padding: 4px 20px;
+        font-size: 13px;
+        margin: 10px;
+    }
+
+    #rezervationLeft thead {
+        color: black;
+    }
+
+    #rezervationRight {
+        width: 430px;
+        margin: auto;
+        position: relative;
+    }
+
+    #rezervationRight #rezervationRightUst h1 {
+        font-size: 25px;
+        color: white;
+        padding: 0;
+        margin-bottom: 10px;
+        color: #4cd137;
+    }
+
+    #rezervationRight #rezervationRightUst h3 {
+        font-family: 'Righteous';
+        padding-left: 30px;
+        color: #4cd137;
+    }
+
+    #rezervationRight img {
+        float: left;
+        width: 22px;
+        margin-left: 62px;
+    }
+
+    #rezervationRight #rezervationRightUstLeft {
+        float: left;
+        width: 210px;
+        font-weight: 100;
+    }
+
+    #rezervationRight #rezervationRightUstRight {
+        float: right;
+        width: 210px;
+    }
+
+    #rezervationRight #rezervationRightUst p {
+        float: left;
+        padding: 8px;
+        font-size: 13px;
+    }
+
+    #rezervationRightAlt {
+        margin-top: 300px;
+        position: relative;
+        padding: 15px;
+        padding-top: 0;
+    }
+
+    #rezervationRightAlt #iletisim {
+        padding-bottom: 15px;
+        color: black;
+        font-weight: bold;
+    }
+
+    #rezervationRightAlt ul {
+        list-style-type: none;
+        line-height: 24px;
+        font-size: 14px;
+    }
+
+    #rezervationRightAlt ul li span {
+        font-weight: bold;
+        padding-right: 7px;
+    }
+
+    /* *** Menü Bölümü * ***/
+
+    #MenuPage {
+        position: relative;
+        margin: auto;
+    }
+
+    #menuKapsayici {
+        background: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        height: 4120px;
+    }
+
+    /*** 1 ***/
+    #MenuPage .menuFirstElement img:nth-child(1) {
+        width: 300px;
+        height: 230px;
+        float: left;
+        position: relative;
+    }
+
+    #MenuPage .menuFirstElement img:nth-child(2) {
+        width: 26px;
+        height: 18px;
+        position: relative;
+        top: 100px;
+        margin-left: 30px;
+    }
+
+    .menuFirstElement #menuRightSection {
+        width: 300px;
+        height: auto;
+        margin: auto;
+        text-align: center;
+    }
+
+    #MenuPage .menuFirstElement #elementName {
+        width: 300px;
+        height: auto;
+        display: inline-block;
+        text-align: center;
+        font-family: 'Righteous';
+        font-size: 22px;
+        color: red;
+        text-shadow: 1px 1px 0.5px #000000;
+        margin-top: 6px;
+    }
+
+    #MenuPage .menuFirstElement #urunInfo {
+        width: 270px;
+        height: auto;
+        display: inline-block;
+        margin-top: 4px;
+        text-align: left;
+        padding-bottom: 6px;
+        border-bottom: 1px solid red;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    #MenuPage .menuFirstElement #urunPrice {
+        width: 300px;
+        height: auto;
+        display: inline-block;
+        margin-top: 8px;
+        font-size: 30px;
+        font-weight: bold;
+        color: yellow;
+    }
+
+    /*** 2 ***/
+
+    #MenuPage .menuSecondElement img:nth-child(1) {
+        width: 300px;
+        height: 230px;
+        float: right;
+        margin-top: -26px;
+        position: relative;
+        margin-top: 15px;
+    }
+
+    #MenuPage .menuSecondElement img:nth-child(2) {
+        width: 26px;
+        height: 18px;
+        position: relative;
+        top: 100px;
+        margin-right: 30px;
+    }
+
+    .menuSecondElement #menuLeftSection {
+        width: 300px;
+        height: auto;
+        margin: auto;
+        text-align: center;
+    }
+
+    #MenuPage .menuSecondElement #elementName {
+        width: 350px;
+        height: auto;
+        display: inline-block;
+        text-align: center;
+        font-family: 'Righteous';
+        font-size: 22px;
+        color: red;
+        text-shadow: 1px 1px 0.5px #000000;
+        margin-top: 20px;
+    }
+
+    #MenuPage .menuSecondElement #urunInfo {
+        width: 270px;
+        height: auto;
+        display: inline-block;
+        margin-top: 4px;
+        text-align: right;
+        padding-bottom: 6px;
+        border-bottom: 1px solid red;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    #MenuPage .menuSecondElement #urunPrice {
+        width: 300px;
+        height: auto;
+        display: inline-block;
+        margin-top: 8px;
+        font-size: 30px;
+        font-weight: bold;
+        color: yellow;
+        margin-bottom: 30px;
+    }
+
+    /* *** Paket Servis Bölümü * ***/
+
+    #packageServiceKapsayici {
+        background: rgba(1, 19, 12, 0.8);
+        width: 100%;
+        height: 550px;
+        margin: auto;
+        margin-top: 50px;
+        padding-top: 0px;
+    }
+
+    #packageService {
+        width: 700px;
+        height: auto;
+        margin: auto;
+        display: inline-block;
+        text-align: center;
+    }
+
+    #packageService #contact li {
+        list-style-type: none;
+        line-height: 25px;
+        font-size: 14px;
+    }
+
+    #packageService #contact span {
+        font-weight: bold;
+        color: red;
+        padding-right: 10px;
+        margin-left:10px;
+    }
+
+    #alopaketimg {
+        width: 350px;
+        border: 3px solid black;
+        padding: 10px;
+        float: left;
+        margin-top: 37px;
+    }
+
+    #alopaketimgicon {
+        width: 40px;
+        height: 40px;
+        margin: auto;
+        display: inline-block;
+        text-align: center;
+    }
+
+    #packageService #uorestAciklama {
+        font-size: 17px;
+        text-decoration: underline;
+    }
+
+    /* *** Footer Bölümü * ***/
+
+    footer {
+        width: 100%;
+        height: 300px;
+        background: url("../image/footer.jpg");
+        background-size: cover;
+        position: relative;
+        margin: auto;
+    }
+
+    #footerContanier {
+        width: 700px;
+        margin: auto;
+        position: relative;
+    }
+
+    #footerContanier #footerLogoLeft {
+        font-family: 'Pacifico', cursive;
+        font-size: 45px;
+        font-weight: bold;
+        color: #ffffff;
+        position: relative;
+        top: 80px;
+        left: 10px;
+        display: inline-block;
+        margin: auto;
+        text-align: center;
+    }
+
+    #footerContanier #footerSocialIcon {
+        position: relative;
+        top: 135px;
+        left: -176px;
+        display: inline-block;
+    }
+
+    #footerContanier #footerSocialIcon img {
+        width: 37px;
+        height: 37px;
+        cursor: pointer;
+    }
+
+    #footerContanier #footerSocialIcon img:hover {
+        transform: scale(1.1);
+    }
+
+    #footerContanier #footerCenter {
+        width: 208px;
+        position: absolute;
+        top: 62px;
+        left: 250px;
+        color: #ffffff;
+        text-align: center;
+        font-size: 500px;
+        margin: auto;
+    }
+
+    #footerContanier #footerCenter h3,
+    #footerRight h3 {
+        font-size: 20px;
+        font-family: 'Righteous';
+        border-bottom: 1px solid red;
+        text-align: center;
+        margin-bottom: 5px;
+        padding-bottom: 2px;
+    }
+
+    #footerRight input:focus {
+        border: 2px solid blue;
+    }
+
+    #footerContanier #footerCenter p {
+        line-height: 22px;
+        font-size: 14px;
+    }
+
+    #footerContanier #footerCenter p span {
+        color: red;
+        font-weight: 400;
+        text-indent: 10px;
+        margin-right: 10px;
+    }
+
+    #footerContanier #footerRight {
+        width: 230px;
+        left: 475px;
+        display: inline-block;
+        position: absolute;
+        top: 61px;
+        color: white;
+        text-align: center;
+        margin: auto;
+    }
+
+    #footerContanier #footerRight p {
+        padding: 8px;
+        line-height: 22px;
+        padding-bottom: 10px;
+        font-size: 14px;
+    }
+
+    #footerContanier #footerRight input {
+        margin-top: 1px;
+        width: 200px;
+        height: 20px;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    #footerContanier #footerRight button {
+        width: 210px;
+        height: 21px;
+        margin-top: 10px;
+        background: orange;
+        font-weight: bold;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    #footerContanier #footerRight button:hover {
+        transform: scale(1.05);
+    }
+
+    #copyRight {
+        background: #000000;
+        padding: 18px;
+        color: white;
+        font-size: 13.5px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:719px) {
+    #mainHeader {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        background: url(../image/header-bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #contentHeader {
+        width: 100%;
+        height: 300px;
+        position: relative;
+    }
+
+    #headerContanier {
+        width: 460px;
+        height: 100vh;
+        margin: auto;
+    }
+
+    #contentHeaderContanier {
+        width: 460px;
+        height: 250px;
+        margin: auto;
+    }
+
+    #headerTop {
+        width: 460px;
+        height: 45px;
+        position: relative;
+    }
+
+    #headerTopLeftUl {
+        display: inline-block;
+    }
+
+    #headerTopLeftUl ul li {
+        list-style-type: none;
+        display: inline-block;
+        line-height: 45px;
+        font-weight: bold;
+        border-right: 1px solid orange;
+        padding: 0 5px;
+        font-size: 15px;
+    }
+
+    #headerTopLeftUl ul li:first-child {
+        padding-left: 0;
+    }
+
+    #headerTopLeftUl ul li:last-child {
+        border-right: 0;
+        padding-right: 0;
+    }
+
+    #headerTopLeftUl ul li a {
+        list-style-type: none;
+        color: #0097e6;
+    }
+
+    #headerTopLeftUl ul li a:hover {
+        color: white;
+    }
+
+    #headerTopLeftUl ul li a:active {
+        color: yellowgreen;
+    }
+
+    #headerTopRight {
+        float: right;
+    }
+
+    .headerTopRightLogo {
+        width: 22px;
+        height: 22px;
+        float: left;
+        margin-top: 8px;
+        margin-right: 10px;
+        margin-left: 20px;
+    }
+
+    .headerTopRightLogo:first-child {
+        margin-left: 0;
+    }
+
+    .headerTopRightText {
+        float: left;
+        line-height: 45px;
+        color: #dcdde1;
+        font-size: 15px;
+        color: lightyellow;
+    }
+
+    /** ** ** Nav Bölümü ** ** **/
+
+    nav {
+        width: 100%;
+        height: 70px;
+        position: absolute;
+        top: 45px;
+        background: rgba(0, 0, 0, 0.5);
+    }
+
+    #navContanier {
+        width: 700px;
+        height: 70px;
+        margin: auto;
+    }
+
+    #navContanierLogo {
+        font-family: 'Righteous', 'Segoe UI';
+        color: white;
+        font-size: 40px;
+        font-weight: bold;
+        display: inline;
+        position: relative;
+        line-height: 70px;
+    }
+
+    #navContanierRightUl {
+        float: right;
+        display:none;
+    }
+
+     /* *** DESKTOP NAV RİGHT *** /
+
+    #navContanierRightUl ul {
+        list-style-type: none;
+        font-weight: 600;
+    }
+
+    #navContanierRightUl ul li {
+        float: left;
+        margin-left: 20px;
+    }
+
+    #navContanierRightUl ul li:first-child {
+        margin-left: 0
+    }
+
+    #navContanierRightUl ul li a {
+        color: #ffffff;
+        line-height: 70px;
+    }
+
+    #navContanierRightUl ul li a:hover {
+        color: #8c7ae6;
+    }
+
+    #navContanierRightUl ul li a:active {
+        color: #e1b12c;
+    }
+    *** */ 
+
+    /* *** navContanierRightUlMobile **/
+
+    #navContanierRightUlMobile{
+        background:darkred;
+        width:700px;
+        text-align: center; 
+        position: relative;
+        top:0; 
+        margin:auto;
+        display: none;
+    }
+
+    #navContanierRightUlMobile ul{
+        list-style-type: none;
+    }
+
+    #navContanierRightUlMobile ul li{
+        line-height:40px;
+    }
+    
+    #navContanierRightUlMobile ul li{
+        border-bottom: 1px solid white;
+    }
+    
+    #navContanierRightUlMobile ul li:last-child{
+        border-bottom: none;
+    }
+
+    #navContanierRightUlMobile ul li a:hover{
+        background:white;
+        color:darkred;
+        border-bottom:1px solid darkred;
+    }
+
+    #navContanierRightUlMobile ul li a:active{
+        background:yellow;
+        color:darkred;
+        border-bottom:1px solid darkred;
+        font-weight: bold;
+        font-size:20px;
+    }
+
+    #navContanierRightUlMobile ul li a{
+        color:white;
+        display: block;
+    }
+
+    #menuIconMobile{
+        width:50px;
+        height:50px;
+        background: url("../image/menu3.png") no-repeat;
+       background-size:100%;
+        float:right;
+        position: relative;
+        margin-right:15px;
+        margin-top:-61px    ;
+        cursor: pointer;
+    }
+
+    #menuIconMobile:hover{
+        transform:scale(1.25);
+    }
+
+    #menuIconMobile:active{
+        transform:scale(1.15);
+    }
+
+    /** **   *** ***/
+
+    #headerText {
+        position: absolute;
+        top: 230px;
+        color: #ffffff;
+    }
+
+    #headerText:last-child {
+        margin: 0;
+    }
+
+    #headerText h1 {
+        font-size: 42px;
+        text-shadow: 5px 5px 6px black;
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+
+    #headerText h2 {
+        font-size: 27px;
+        text-shadow: 5px 5px 6px black;
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+
+    #headerText h3 {
+        font-size: 18px;
+        background: rgba(0, 0, 0, 0.5);
+        padding: 2px 15px;
+        padding-right: 0;
+        text-shadow: 3px 3px 5px black;
+        font-weight: 400;
+    }
+
+    #headerTextButton {
+        margin-top: 35px;
+    }
+
+    #headerTextButton a {
+        border: 1px solid #ffffff;
+        padding: 16px;
+        color: #ffffff;
+        transition: all .5s ease-in-out;
+        text-shadow: 1px 1px 1px black;
+    }
+
+    #headerTextButton a:first-child {
+        background: red;
+    }
+
+    #headerTextButton a:last-child {
+        margin-left: 15px;
+        background: red;
+    }
+
+    #headerTextButton a:last-child:hover {
+        background: transparent;
+    }
+
+    #headerTextButton a:first-child:hover {
+        background: transparent;
+    }
+
+    #headerTextButton a:active {
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        transition: none;
+        text-shadow: none;
+    }
+
+    /*** Section Başlangıcı ***/
+
+    /*** Birinci Section ***/
+
+    #section_Ilk {
+        width: 100%;
+        height: 100vh;
+        background: url(../image/section1.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 1px;
+        margin-top: 0;
+    }
+
+    .limitedSection {
+        width: 700px;
+        height: 550px;
+        position: relative;
+        margin: auto;
+        margin-top: 25px;
+    }
+
+    .limitedSection h1 {
+        text-align: center;
+        font-size: 30px;
+        background: red;
+        display: inline-block;
+        padding: 1px 10px;
+    }
+
+    .limitedSection h2 {
+        text-align: center;
+        font-size: 20px;
+        margin-top: 5px;
+        font-weight: 500;
+        background: red;
+        display: inline-block;
+        padding: 1px 10px;
+    }
+
+    .limitedSection img {
+        width: 320px;
+        height: 300px;
+        padding: 5px;
+        margin-top: 84px;
+        float: left;
+        display: block;
+    }
+
+    #limitedSectionBasliklar {
+        text-align: center;
+    }
+
+    .limitedSection article {
+        width: 350px;
+        float: right;
+        padding-left: 20px;
+    }
+
+    .limitedSection article img {
+        width: 50px;
+        height: 50px;
+        margin-left: 140px;
+        border: none;
+        margin-top: 8px;
+    }
+
+    .limitedSection article p {
+        float: left;
+        margin-bottom: 15px;
+        text-indent: 13px;
+        font-weight: 500;
+        color: black;
+        padding: 5px;
+        background-color: white;
+        font-size: 11.5px;
+    }
+
+    .limitedSection article p:nth-child(4) {
+        margin-bottom: 0px;
+    }
+
+    /*** İkinci Section ***/
+
+    section .unLimitedSection {
+        width: 100%;
+        height: 540px;
+        position: relative;
+        background: black;
+    }
+
+    #unLimitedSectionMenuContanier {
+        width: 700px;
+        height: 540px;
+        position: relative;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    #unLimitedSectionMenuContanier img {
+        width: 175px;
+        height: 186px;
+        opacity: 0.3;
+        transition: all 0.3s ease-in-out;
+    }
+
+    #unLimitedSectionMenuContanier img:hover {
+        cursor: pointer;
+        opacity: 1;
+        transform: scale(1.05);
+    }
+
+    #unLimitedSectionMenuContanierLink {
+        margin-top: 167px;
+        position: absolute;
+        width: 550px;
+        height: 200px;
+        border: 0.1px solid #ffffff;
+        text-align: center;
+        padding: 0px 20px;
+    }
+
+    #unLimitedSectionMenuContanierLink h1 {
+        color: rgb(241, 226, 12);
+        font-size: 27px;
+        line-height: 118px;
+    }
+
+    #unLimitedSectionMenuContanierLink a {
+        border: 3px solid white;
+        padding: 8px;
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+        line-height: 17px;
+    }
+
+    #unLimitedSectionMenuContanierLink a:hover {
+        background: red;
+        color: #ffffff;
+    }
+
+    /*** Üçüncü Section ***/
+
+    #section_Uc {
+        width: 100%;
+        height: 100vh;
+        background: url("../image/section3.jpg");
+        background-size: cover;
+        padding-bottom: 30px;
+    }
+
+    #teamContanier {
+        width: 700px;
+        height: 550px;
+        margin: auto;
+    }
+
+    #teamContanier h1 {
+        padding-top: 80px;
+        font-size: 40px;
+        text-align: center;
+        color: darkblue;
+    }
+
+    #teamContanier .teamTile {
+        overflow: hidden;
+        float: left;
+        margin-left: 28.5px;
+    }
+
+    #teamContanier img {
+        width: 180px;
+        height: 300px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+        border: 1px solid black;
+        padding: 10px;
+    }
+
+    #teamContanier .teamTile .teamHover {
+        position: relative;
+        width: 202px;
+        height: 321px;
+        background: url(../image/hover.jpg);
+        opacity: 0.7;
+        background-size: cover;
+        margin-top: -345px;
+        margin-left: -272px;
+        transition: all 0.8s ease;
+    }
+
+    #teamContanier .teamTile .teamHover .teamHoverText {
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        color: white;
+        background: #000000;
+        text-shadow: 1px 1px 1px black;
+        width: 202px;
+        position: absolute;
+        margin-top: 120px;
+        font-size: 14px;
+    }
+
+    #teamContanier .teamTile:hover .teamHover {
+        margin-left: 0;
+    }
+
+    /* *** Dördüncü Section Alanı *** */
+
+    #unLimitedSection2 {
+        width: 100%;
+        height: 100vh;
+        margin: auto;
+        background-image: url(../image/section4.jpg);
+        background-size: cover;
+        position: relative;
+    }
+
+    #unLimitedSection2 #unLimitedSection2Left {
+        margin-top: 152px;
+        margin-left: 110px;
+        position: absolute;
+        width: 450px;
+        height: 290px;
+        background: rgba(11, 17, 0, 0.8);
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+
+    #unLimitedSection2 #unLimitedSection2Left h1 {
+        font-size: 30px;
+        line-height: 30px;
+        margin-top: 20px;
+    }
+
+    #unLimitedSection2 #unLimitedSection2Left h2 {
+        font-size: 22px;
+        line-height: 40px;
+    }
+
+    #unLimitedSection2 #unLimitedSection2Left p {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    #unLimitedSection2 #unLimitedSection2Left h3 {
+        font-size: 19px;
+        text-decoration: underline;
+    }
+
+    .contentSection {
+        width: 700px;
+        height: auto;
+        position: relative;
+        margin: 20px auto;
+        margin-top: 50px;
+    }
+
+    #contentSectionKapsayici {
+        background: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        height: 850px;
+    }
+
+    #contentHeader .contentSection h1 {
+        text-align: center;
+        padding-top: 26px;
+        padding-bottom: 25px;
+        font-size: 45px;
+        color: yellow;
+    }
+
+    #contentHeader .contentSection p {
+        line-height: 19px;
+        padding-bottom: 24px;
+        text-indent: 15px;
+        font-size: 14px;
+        color: #fff;
+    }
+
+    /* *** İletişim Bölümü * ***/
+
+    #contactKapsayici {
+        background: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin: auto;
+    }
+
+    #contactPartLeft {
+        width: 590px;
+        position: relative;
+        margin-left: 20px;
+        margin: auto;
+    }
+
+    #contactPartLeft h2 {
+        text-align: center;
+        padding-bottom: 5px;
+        border-bottom: 1px solid red;
+        margin-bottom: 20px;
+    }
+
+    #contactPartLeft p {
+        padding-bottom: 10px !important;
+    }
+
+    #contactPartLeft p span {
+        padding-right: 10px;
+        font-weight: bold;
+        color: orange;
+    }
+
+    #contactPartLeft #concactPartLeftSocial img {
+        width: 65px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #contactPartLeft #concactPartLeftSocial img:hover {
+        transform: scale(1.1);
+    }
+
+    #contactPartLeft h3 {
+        text-align: center;
+        font-family: 'Righteous';
+        margin-top: 35px;
+    }
+
+    #contactPartRight {
+        width: 590px;
+        position: relative;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin: auto;
+    }
+
+    #contactPartRight h2 {
+        text-align: center;
+        padding-bottom: 5px;
+        border-bottom: 1px solid red;
+        margin-bottom: 20px;
+    }
+
+    #contactPartRight input {
+        width: 265px;
+        height: 30px;
+        padding-left: 10px;
+        margin-left: 10px;
+        font-size: 15px;
+        border-radius: 10px;
+    }
+
+    #contactPartRight input:nth-child(3) {
+        width: 350px;
+        margin-top: 20px;
+    }
+
+    #contactPartRight textarea {
+        margin: 20px auto;
+        width: 500px;
+        height: 200px;
+        font-size: 15px;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    #contactPartRight input:nth-child(4) {
+        font-weight: bold;
+        font-size: 18px;
+        border-radius: 0;
+    }
+
+    #contactPartRight input:nth-child(4):hover {
+        background: lightslategray;
+        cursor: pointer;
+    }
+
+    #concactPartMaps {
+        text-align: center;
+        margin-top: 30px;
+        position: relative;
+    }
+
+    /* ***Rezervasyon Bölümü *** */
+
+    #rezervationKapsayici {
+        background: rgba(1, 19, 12, 0.8);
+        width: 100%;
+        height: 600px;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    #rezervationLeft {
+        width: 240px;
+        position: relative;
+        margin-left: auto;
+        margin-top: 47px;
+        margin-left: 0px;
+    }
+
+    #rezervationLeft h2 {
+        font-size: 24px;
+        margin: auto;
+        text-align: center;
+        color: #4cd137;
+        margin-bottom:-10px;
+    }
+
+    #rezervationLeft table {
+        margin-top: 20px !important;
+        margin: auto;
+    }
+
+    #rezervationLeft table thead tr th,
+    #rezervationLeft table tbody tr td {
+        border: 1.5px solid black;
+        padding: 4px 20px;
+        font-size: 13px;
+        margin: 10px;
+    }
+
+    #rezervationLeft thead {
+        color: black;
+    }
+
+    #rezervationRight {
+        width: 430px;
+        margin: auto;
+        position: relative;
+    }
+
+    #rezervationRight #rezervationRightUst h1 {
+        font-size: 25px;
+        color: white;
+        padding: 0;
+        margin-bottom: 10px;
+        color: #4cd137;
+    }
+
+    #rezervationRight #rezervationRightUst h3 {
+        font-family: 'Righteous';
+        padding-left: 30px;
+        color: #4cd137;
+    }
+
+    #rezervationRight img {
+        float: left;
+        width: 22px;
+        margin-left: 62px;
+    }
+
+    #rezervationRight #rezervationRightUstLeft {
+        float: left;
+        width: 210px;
+        font-weight: 100;
+    }
+
+    #rezervationRight #rezervationRightUstRight {
+        float: right;
+        width: 210px;
+    }
+
+    #rezervationRight #rezervationRightUst p {
+        float: left;
+        padding: 8px;
+        font-size: 13px;
+    }
+
+    #rezervationRightAlt {
+        margin-top: 300px;
+        position: relative;
+        padding: 15px;
+        padding-top: 0;
+    }
+
+    #rezervationRightAlt #iletisim {
+        padding-bottom: 15px;
+        color: black;
+        font-weight: bold;
+    }
+
+    #rezervationRightAlt ul {
+        list-style-type: none;
+        line-height: 24px;
+        font-size: 14px;
+    }
+
+    #rezervationRightAlt ul li span {
+        font-weight: bold;
+        padding-right: 7px;
+    }
+
+    /* *** Menü Bölümü * ***/
+
+    #MenuPage {
+        position: relative;
+        margin: auto;
+    }
+
+    #menuKapsayici {
+        background: rgba(0, 0, 0, 0.8);
+        width: 100%;
+        height: 4120px;
+    }
+
+    /*** 1 ***/
+    #MenuPage .menuFirstElement img:nth-child(1) {
+        width: 300px;
+        height: 230px;
+        float: left;
+        position: relative;
+    }
+
+    #MenuPage .menuFirstElement img:nth-child(2) {
+        width: 26px;
+        height: 18px;
+        position: relative;
+        top: 100px;
+        margin-left: 30px;
+    }
+
+    .menuFirstElement #menuRightSection {
+        width: 300px;
+        height: auto;
+        margin: auto;
+        text-align: center;
+    }
+
+    #MenuPage .menuFirstElement #elementName {
+        width: 300px;
+        height: auto;
+        display: inline-block;
+        text-align: center;
+        font-family: 'Righteous';
+        font-size: 22px;
+        color: red;
+        text-shadow: 1px 1px 0.5px #000000;
+        margin-top: 6px;
+    }
+
+    #MenuPage .menuFirstElement #urunInfo {
+        width: 270px;
+        height: auto;
+        display: inline-block;
+        margin-top: 4px;
+        text-align: left;
+        padding-bottom: 6px;
+        border-bottom: 1px solid red;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    #MenuPage .menuFirstElement #urunPrice {
+        width: 300px;
+        height: auto;
+        display: inline-block;
+        margin-top: 8px;
+        font-size: 30px;
+        font-weight: bold;
+        color: yellow;
+    }
+
+    /*** 2 ***/
+
+    #MenuPage .menuSecondElement img:nth-child(1) {
+        width: 300px;
+        height: 230px;
+        float: right;
+        margin-top: -26px;
+        position: relative;
+        margin-top: 15px;
+    }
+
+    #MenuPage .menuSecondElement img:nth-child(2) {
+        width: 26px;
+        height: 18px;
+        position: relative;
+        top: 100px;
+        margin-right: 30px;
+    }
+
+    .menuSecondElement #menuLeftSection {
+        width: 300px;
+        height: auto;
+        margin: auto;
+        text-align: center;
+    }
+
+    #MenuPage .menuSecondElement #elementName {
+        width: 350px;
+        height: auto;
+        display: inline-block;
+        text-align: center;
+        font-family: 'Righteous';
+        font-size: 22px;
+        color: red;
+        text-shadow: 1px 1px 0.5px #000000;
+        margin-top: 20px;
+    }
+
+    #MenuPage .menuSecondElement #urunInfo {
+        width: 270px;
+        height: auto;
+        display: inline-block;
+        margin-top: 4px;
+        text-align: right;
+        padding-bottom: 6px;
+        border-bottom: 1px solid red;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    #MenuPage .menuSecondElement #urunPrice {
+        width: 300px;
+        height: auto;
+        display: inline-block;
+        margin-top: 8px;
+        font-size: 30px;
+        font-weight: bold;
+        color: yellow;
+        margin-bottom: 30px;
+    }
+
+    /* *** Paket Servis Bölümü * ***/
+
+    #packageServiceKapsayici {
+        background: rgba(1, 19, 12, 0.8);
+        width: 100%;
+        height: 550px;
+        margin: auto;
+        margin-top: 50px;
+        padding-top: 0px;
+    }
+
+    #packageService {
+        width: 700px;
+        height: auto;
+        margin: auto;
+        display: inline-block;
+        text-align: center;
+    }
+
+    #packageService #contact li {
+        list-style-type: none;
+        line-height: 25px;
+        font-size: 14px;
+    }
+
+    #packageService #contact span {
+        font-weight: bold;
+        color: red;
+        padding-right: 10px;
+        margin-left:10px;
+    }
+
+    #alopaketimg {
+        width: 350px;
+        border: 3px solid black;
+        padding: 10px;
+        float: left;
+        margin-top: 37px;
+    }
+
+    #alopaketimgicon {
+        width: 40px;
+        height: 40px;
+        margin: auto;
+        display: inline-block;
+        text-align: center;
+    }
+
+    #packageService #uorestAciklama {
+        font-size: 17px;
+        text-decoration: underline;
+    }
+
+    /* *** Footer Bölümü * ***/
+
+    footer {
+        width: 100%;
+        height: 300px;
+        background: url("../image/footer.jpg");
+        background-size: cover;
+        position: relative;
+        margin: auto;
+    }
+
+    #footerContanier {
+        width: 700px;
+        margin: auto;
+        position: relative;
+    }
+
+    #footerContanier #footerLogoLeft {
+        font-family: 'Pacifico', cursive;
+        font-size: 45px;
+        font-weight: bold;
+        color: #ffffff;
+        position: relative;
+        top: 80px;
+        left: 10px;
+        display: inline-block;
+        margin: auto;
+        text-align: center;
+    }
+
+    #footerContanier #footerSocialIcon {
+        position: relative;
+        top: 135px;
+        left: -176px;
+        display: inline-block;
+    }
+
+    #footerContanier #footerSocialIcon img {
+        width: 37px;
+        height: 37px;
+        cursor: pointer;
+    }
+
+    #footerContanier #footerSocialIcon img:hover {
+        transform: scale(1.1);
+    }
+
+    #footerContanier #footerCenter {
+        width: 208px;
+        position: absolute;
+        top: 62px;
+        left: 250px;
+        color: #ffffff;
+        text-align: center;
+        font-size: 500px;
+        margin: auto;
+    }
+
+    #footerContanier #footerCenter h3,
+    #footerRight h3 {
+        font-size: 20px;
+        font-family: 'Righteous';
+        border-bottom: 1px solid red;
+        text-align: center;
+        margin-bottom: 5px;
+        padding-bottom: 2px;
+    }
+
+    #footerRight input:focus {
+        border: 2px solid blue;
+    }
+
+    #footerContanier #footerCenter p {
+        line-height: 22px;
+        font-size: 14px;
+    }
+
+    #footerContanier #footerCenter p span {
+        color: red;
+        font-weight: 400;
+        text-indent: 10px;
+        margin-right: 10px;
+    }
+
+    #footerContanier #footerRight {
+        width: 230px;
+        left: 475px;
+        display: inline-block;
+        position: absolute;
+        top: 61px;
+        color: white;
+        text-align: center;
+        margin: auto;
+    }
+
+    #footerContanier #footerRight p {
+        padding: 8px;
+        line-height: 22px;
+        padding-bottom: 10px;
+        font-size: 14px;
+    }
+
+    #footerContanier #footerRight input {
+        margin-top: 1px;
+        width: 200px;
+        height: 20px;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    #footerContanier #footerRight button {
+        width: 210px;
+        height: 21px;
+        margin-top: 10px;
+        background: orange;
+        font-weight: bold;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    #footerContanier #footerRight button:hover {
+        transform: scale(1.05);
+    }
+
+    #copyRight {
+        background: #000000;
+        padding: 18px;
+        color: white;
+        font-size: 13.5px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!--Meta Etiketleri-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Restaurant WebSite... Lezzet Durağı">
+    <meta name="keywords" content="restaurant,lezzet,yemek,çorbalar,kebaplar,tatlılar">
+    <meta name="author" content="OrkunYk">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--Yazı Ailesi Bağlantıları-->
+
+    <!--Büyük Başlıklar İçin-->
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap&subset=latin-ext" rel="stylesheet">
+    <!--Alt Başlıklar İçin-->
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap&subset=latin-ext" rel="stylesheet">
+    <!--Paragraf Metinleri İçin-->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap&subset=latin-ext" rel="stylesheet">
+    <!--Footer Logo İçin-->
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap&subset=latin-ext" rel="stylesheet">
+
+    <!--Css Dosyası Bağlantısı-->
+    <link rel="stylesheet" href="/css/style.css">
+    <!--Site ikonu-->
+    <link rel="shortcut icon" href="image/ikon.jpg">
+
+    <title>Restaurant Web Sitesi-Hosgeldiniz</title>
+
+        <!-- JQuery Bağlantısı -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <script type="text/javascript">
+        $(function(){    
+        $("#menuIconMobile").click(function(){
+            $("#navContanierRightUlMobile").slideToggle(800);
+        })
+        })
+        
+        </script>
+
+</head>
+
+<body>
+    <header id="contentHeader" style="    background: url(image/menu-img.jpeg);
+    background-size: cover; background-repeat: no-repeat;
+background-position: center;">
+        <div id="contentHeaderContanier">
+            <div id="headerTop">
+                <div id="headerTopLeftUl">
+                    <ul>
+                        <li><a href="index.html">ANASAYFA</a></li>
+                        <li><a href="about-us.html">HAKKIMIZDA</a></li>
+                        <li><a href="contact.html">İLETİŞİM</a></li>
+                    </ul>
+                </div>
+                <div id="headerTopRight">
+                    <div class="headerTopRightLogo">
+                        <img src="image/phone-icon.png">
+                    </div>
+                    <div class="headerTopRightText">
+                        0123 456 78 99
+                    </div>
+                    <div class="headerTopRightLogo">
+                        <img src="image/email-icon.png">
+                    </div>
+                    <div class="headerTopRightText">
+                        info@domain.com
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <nav>
+            <div id="navContanier">
+                <div id="navContanierLogo"><a href="index.html" title="ANASAYFA">UOREST</a></div>
+                <div id="navContanierRightUl">
+                    <ul>
+                        <li><a href="index.html">ANASAYFA</a></li>
+                        <li><a href="menu.html">MENÜ</a></li>
+                        <li><a href="rezervation.html">REZERVASYON</a></li>
+                        <li><a href="package-service.html">PAKET SERVİS</a></li>
+                        <li><a href="contact.html">İLETİŞİM</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="menuIconMobile"></div>
+            <div id="navContanierRightUlMobile">
+                <ul>
+                    <li><a href="index.html">ANASAYFA</a></li>
+                    <li><a href="menu.html">MENÜ</a></li>
+                    <li><a href="rezervation.html">REZERVASYON</a></li>
+                    <li><a href="package-service.html">PAKET SERVİS</a></li>
+                    <li><a href="contact.html">İLETİŞİM</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Section Başlangıcı -->
+
+        <div id="menuKapsayici">
+            <section class="contentSection">
+                <div id="MenuPage">
+
+                    <h1>MENÜ</h1>
+                    <table>
+                        <tbody>
+                            <tr class="menuFirstElement" style="border-bottom:100px;">
+                                <td>
+                                    <div style="float:left; " id="menuLeftSection">
+                                        <img src="image/Yeni klasör/serpme-kahvalti.jpg">
+                                    </div>
+
+                                    <img src="image/Yeni klasör/sag-ok.gif">
+
+                                    <div style="float:right; " id="menuRightSection">
+                                        <div id="elementName">
+                                            <h3>SERPME KAHVALTI </h3>
+                                        </div>
+                                        <div id="urunInfo">Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                                            Quisque imperdiet, turpis et suscipit bibendum, risus eros rutrum sapien,
+                                            sed tristique urna ante ut nunc. Praesent rutrum fermentum eleifend. Quisque
+                                            in augue.
+
+                                        </div>
+                                        <div id="urunPrice">......... 40 TL ......... </div>
+                                    </div>
+
+                                </td>
+                            </tr>
+                            <tr class="menuSecondElement">
+                                <td>
+
+                                    <div style="float:left ;" id="menuLeftSection">
+                                        <div id="elementName">
+                                            <h3>GÜNÜN ÇORBASI </h3>
+                                        </div>
+                                        <div id="urunInfo">Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                                            Quisque imperdiet, turpis et suscipit bibendum, risus eros rutrum sapien,
+                                            sed tristique urna ante ut nunc. Praesent rutrum fermentum eleifend. Quisque
+                                            in augue.
+
+                                        </div>
+                                        <div id="urunPrice">......... 10 TL ......... </div>
+                                    </div>
+
+                                    <img src="image/Yeni klasör/sol-ok.gif">
+
+                                    <div style="float:right; " id="menuSection">
+                                        <img src="image/Yeni klasör/corba.jpg">
+                                    </div>
+
+                                </td>
+                            </tr>
+
+                            <tr class="menuFirstElement">
+                                <td>
+                                    <div style="float:left; " id="menuLeftSection">
+                                        <img src="image/Yeni klasör/patates-tabagi.jpg">
+                                    </div>
+
+                                    <img src="image/Yeni klasör/sag-ok.gif">
+
+                                    <div style="float:right; " id="menuRightSection">
+                                        <div id="elementName">
+                                            <h3>PATATES TABAĞI </h3>
+                                        </div>
+                                        <div id="urunInfo">Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                                            Quisque imperdiet, turpis et suscipit bibendum, risus eros rutrum sapien,
+                                            sed tristique urna ante ut nunc. Praesent rutrum fermentum eleifend. Quisque
+                                            in augue.
+
+                                        </div>
+                                        <div id="urunPrice">......... 13 TL ......... </div>
+                                    </div>
+
+                                </td>
+                            </tr>
+
+                            <tr class="menuSecondElement">
+                                <td>
+
+                                    <div style="float:left ;" id="menuLeftSection">
+                                        <div id="elementName">
+                                            <h3>LA SEZAR SALATA </h3>
+                                        </div>
+                                        <div id="urunInfo">Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                                            Quisque imperdiet, turpis et suscipit bibendum, risus eros rutrum sapien,
+                                            sed tristique urna ante ut nunc. Praesent rutrum fermentum eleifend. Quisque
+                                            in augue.
+
+                                        </div>
+                                        <div id="urunPrice">......... 11 TL ......... </div>
+                                    </div>
+
+                                    <img src="image/Yeni klasör/sol-ok.gif">
+
+                                    <div style="float:right; " id="menuSection">
+                                        <img src="image/Yeni klasör/la-sezar-salata.jpg">
+                                    </div>
+
+                                </td>
+                            </tr>
+                            <tr class="menuFirstElement">
+                                <td>
+                                    <div style="float:left; " id="menuLeftSection">
+                                        <img src="image/Yeni klasör/la-fresca-salata.jpg">
+                                    </div>
+
+                                    <img src="image/Yeni klasör/sag-ok.gif">
+
+                                    <div style="float:right; " id="menuRightSection">
+                                        <div id="elementName">
+                                            <h3>LA FRESCA SALATA </h3>
+                                        </div>
+                                        <div id="urunInfo">Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                                            Quisque imperdiet, turpis et suscipit bibendum, risus eros rutrum sapien,
+                                            sed tristique urna ante ut nunc. Praesent rutrum fermentum eleifend. Quisque
+                                            in augue.
+
+                                        </div>
+                                        <div id="urunPrice">......... 11 TL ......... </div>
+                                    </div>
+
+                                </td>
+                            </tr>
+
+                            <tr class="menuSecondElement">
+                                <td>
+
+                                    <div style="float:left ;" id="menuLeftSection">
+                                        <div id="elementName">
+                                            <h3>TAVUKLU KREP </h3>
+                                        </div>
+                                        <div id="urunInfo">Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                                            Quisque imperdiet, turpis et suscipit bibendum, risus eros rutrum sapien,
+                                            sed tristique urna ante ut nunc. Praesent rutrum fermentum eleifend. Quisque
+                                            in augue.
+
+                                        </div>
+                                        <div id="urunPrice">......... 23 TL ......... </div>
+                                    </div>
+
+                                    <img src="image/Yeni klasör/sol-ok.gif">
+
+                                    <div style="float:right; " id="menuSection">
+                                        <img src="image/Yeni klasör/tavuklu-krep.jpg">
+                                    </div>
+
+                                </td>
+                            </tr>
+
+                            <tr class="menuFirstElement">
+                                <td>
+                                    <div style="float:left; " id="menuLeftSection">
+                                        <img src="image/Yeni klasör/soya-soslu-pilic.jpg">
+                                    </div>
+
+                                    <img src="image/Yeni klasör/sag-ok.gif">
+
+                                    <div style="float:right; " id="menuRightSection">
+                                        <div id="elementName">
+                                            <h3>SOYA SOSLU PİLİÇ</h3>
+                                        </div>
+                                        <div id="urunInfo">Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                                            Quisque imperdiet, turpis et suscipit bibendum, risus eros rutrum sapien,
+                                            sed tristique urna ante ut nunc. Praesent rutrum fermentum eleifend. Quisque
+                                            in augue.
+
+                                        </div>
+                                        <div id="urunPrice">......... 30 TL ......... </div>
+                                    </div>
+
+                                </td>
+                            </tr>
+
+                            <tr class="menuSecondElement">
+                                <td>
+
+                                    <div style="float:left ;" id="menuLeftSection">
+                                        <div id="elementName">
+                                            <h3>PİLİÇ IZGARA </h3>
+                                        </div>
+                                        <div id="urunInfo">Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                                            Quisque imperdiet, turpis et suscipit bibendum, risus eros rutrum sapien,
+                                            sed tristique urna ante ut nunc. Praesent rutrum fermentum eleifend. Quisque
+                                            in augue.
+
+                                        </div>
+                                        <div id="urunPrice">......... 32 TL ......... </div>
+                                    </div>
+
+                                    <img src="image/Yeni klasör/sol-ok.gif">
+
+                                    <div style="float:right; " id="menuSection">
+                                        <img src="image/Yeni klasör/pilic-izgara.jpg">
+                                    </div>
+
+                                </td>
+                            </tr>
+
+                            <tr class="menuFirstElement">
+                                <td>
+                                    <div style="float:left; " id="menuLeftSection">
+                                        <img src="image/Yeni klasör/pilic-kulbasti.jpg">
+                                    </div>
+
+                                    <img src="image/Yeni klasör/sag-ok.gif">
+
+                                    <div style="float:right; " id="menuRightSection">
+                                        <div id="elementName">
+                                            <h3>PİLİÇ KÜLBASTI </h3>
+                                        </div>
+                                        <div id="urunInfo">Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                                            Quisque imperdiet, turpis et suscipit bibendum, risus eros rutrum sapien,
+                                            sed tristique urna ante ut nunc. Praesent rutrum fermentum eleifend. Quisque
+                                            in augue.
+
+                                        </div>
+                                        <div id="urunPrice">......... 32 TL ......... </div>
+                                    </div>
+
+                                </td>
+                            </tr>
+
+                            <tr class="menuSecondElement">
+                                <td>
+
+                                    <div style="float:left ;" id="menuLeftSection">
+                                        <div id="elementName">
+                                            <h3>KUZU PİRZOLA </h3>
+                                        </div>
+                                        <div id="urunInfo">Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                                            Quisque imperdiet, turpis et suscipit bibendum, risus eros rutrum sapien,
+                                            sed tristique urna ante ut nunc. Praesent rutrum fermentum eleifend. Quisque
+                                            in augue.
+
+                                        </div>
+                                        <div id="urunPrice">......... 34 TL ......... </div>
+                                    </div>
+
+                                    <img src="image/Yeni klasör/sol-ok.gif">
+
+                                    <div style="float:right; " id="menuSection">
+                                        <img src="image/Yeni klasör/kuzu-pirzola.jpg">
+                                    </div>
+
+                                </td>
+                            </tr>
+
+
+                            <tr class="menuFirstElement">
+                                <td>
+                                    <div style="float:left; " id="menuLeftSection">
+                                        <img src="image/Yeni klasör/iskender.jpg">
+                                    </div>
+
+                                    <img src="image/Yeni klasör/sag-ok.gif">
+
+                                    <div style="float:right; " id="menuRightSection">
+                                        <div id="elementName">
+                                            <h3>İSKENDER </h3>
+                                        </div>
+                                        <div id="urunInfo">Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                                            Quisque imperdiet, turpis et suscipit bibendum, risus eros rutrum sapien,
+                                            sed tristique urna ante ut nunc. Praesent rutrum fermentum eleifend. Quisque
+                                            in augue.
+
+                                        </div>
+                                        <div id="urunPrice">......... 34 TL ......... </div>
+                                    </div>
+
+                                </td>
+                            </tr>
+
+                            <tr class="menuSecondElement">
+                                <td>
+
+                                    <div style="float:left ;" id="menuLeftSection">
+                                        <div id="elementName">
+                                            <h3>IZGARA KÖFTE </h3>
+                                        </div>
+                                        <div id="urunInfo">Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                                            Quisque imperdiet, turpis et suscipit bibendum, risus eros rutrum sapien,
+                                            sed tristique urna ante ut nunc. Praesent rutrum fermentum eleifend. Quisque
+                                            in augue.
+
+                                        </div>
+                                        <div id="urunPrice">......... 33 TL .........</div>
+                                    </div>
+
+                                    <img src="image/Yeni klasör/sol-ok.gif">
+
+                                    <div style="float:right; " id="menuSection">
+                                        <img src="image/Yeni klasör/izgara-kofte.jpg">
+                                    </div>
+
+                                </td>
+                            </tr>
+
+                            <tr class="menuFirstElement">
+                                <td>
+                                    <div style="float:left; " id="menuLeftSection">
+                                        <img src="image/Yeni klasör/sutlac.png">
+                                    </div>
+
+                                    <img src="image/Yeni klasör/sag-ok.gif">
+
+                                    <div style="float:right; " id="menuRightSection">
+                                        <div id="elementName">
+                                            <h3>SÜTLAÇ</h3>
+                                        </div>
+                                        <div id="urunInfo">Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                                            Quisque imperdiet, turpis et suscipit bibendum, risus eros rutrum sapien,
+                                            sed tristique urna ante ut nunc. Praesent rutrum fermentum eleifend. Quisque
+                                            in augue.
+
+                                        </div>
+                                        <div id="urunPrice">......... 12 TL ......... </div>
+                                    </div>
+
+                                </td>
+                            </tr>
+
+                            <tr class="menuSecondElement">
+                                <td>
+
+                                    <div style="float:left ;" id="menuLeftSection">
+                                        <div id="elementName">
+                                            <h3>FISTIKLI BAKLAVA </h3>
+                                        </div>
+                                        <div id="urunInfo">Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                                            Quisque imperdiet, turpis et suscipit bibendum, risus eros rutrum sapien,
+                                            sed tristique urna ante ut nunc. Praesent rutrum fermentum eleifend. Quisque
+                                            in augue.
+
+                                        </div>
+                                        <div id="urunPrice">......... 20TL ......... </div>
+                                    </div>
+
+                                    <img src="image/Yeni klasör/sol-ok.gif">
+
+                                    <div style="float:right; " id="menuSection">
+                                        <img src="image/Yeni klasör/fistikli-baklava.jpg">
+                                    </div>
+
+                                </td>
+                            </tr>
+
+                            <tr class="menuFirstElement">
+                                <td>
+                                    <div style="float:left; " id="menuLeftSection">
+                                        <img src="image/Yeni klasör/fistikli-kadayif.jpg">
+                                    </div>
+
+                                    <img src="image/Yeni klasör/sag-ok.gif">
+
+                                    <div style="float:right; " id="menuRightSection">
+                                        <div id="elementName">
+                                            <h3>FISTIKLI KADAYIF </h3>
+                                        </div>
+                                        <div id="urunInfo">Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                                            Quisque imperdiet, turpis et suscipit bibendum, risus eros rutrum sapien,
+                                            sed tristique urna ante ut nunc. Praesent rutrum fermentum eleifend. Quisque
+                                            in augue.
+
+                                        </div>
+                                        <div id="urunPrice">......... 20 TL ......... </div>
+                                    </div>
+
+                                </td>
+                            </tr>
+
+                            <tr class="menuSecondElement">
+                                <td>
+
+                                    <div style="float:left ;" id="menuLeftSection">
+                                        <div id="elementName">
+                                            <h3>TREMİSU </h3>
+                                        </div>
+                                        <div id="urunInfo">Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                                            Quisque imperdiet, turpis et suscipit bibendum, risus eros rutrum sapien,
+                                            sed tristique urna ante ut nunc. Praesent rutrum fermentum eleifend. Quisque
+                                            in augue.
+
+                                        </div>
+                                        <div id="urunPrice">......... 12 TL ......... </div>
+                                    </div>
+
+                                    <img src="image/Yeni klasör/sol-ok.gif">
+
+                                    <div style="float:right; " id="menuSection">
+                                        <img src="image/Yeni klasör/tramisu.jpg">
+                                    </div>
+
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+
+
+
+        <!-- Footer Alanı-->
+        <footer>
+            <div id="footerContanier">
+
+                <div id="footerLogoLeft">
+                    UOREST
+                </div>
+                <div id="footerSocialIcon">
+                    <img src="image/instagram-icon.png">
+                    <img src="image/facebook-icon.png">
+                    <img src="image/twitter-icon.png">
+                    <img src="image/youtube-icon.png">
+                </div>
+
+                <div id="footerCenter">
+
+                    <h3>BİZE ULAŞIN</h3>
+                    <p><span>Tel:</span>0123 123 45 67</p>
+                    <p><span>E-Mail:</span>info@domain.com</p>
+                    <p><span>Web:</span>www.domain.com</p>
+                    <p><span>Adres:</span>Örnek Mahallesi Örnek Caddesi Örnek Sokak No:10/20 İlçe/İL</p>
+
+                </div>
+
+                <div id="footerRight">
+                    <h3> ABONE OL </h3>
+                    <p>Restaurantımızın indirimleri ve etkinliklerimizden haberdar olmak istiyorsanız e-mail adresinizi
+                        girmeniz yeterli olacaktır. </p>
+                    <input type="email" placeholder="E-Mail Adresinizi Giriniz">
+                    <button> ABONE OL </button>
+                </div>
+            </div>
+        </footer>
+        <div id="copyRight">
+            &copy 2019 - Bu web sitesi OrkunYK tarafından proje amaçlı oluşturulmuştur. Gerçek bir restaurant değildir.
+        </div>
+
+
+</body>
+
+</html>
